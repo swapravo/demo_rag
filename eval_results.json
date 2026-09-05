@@ -1,0 +1,2186 @@
+{
+  "run_timestamp": "2026-09-05T15:09:28.910848",
+  "chunk_sizes": [
+    125,
+    150,
+    175,
+    250
+  ],
+  "num_questions": 28,
+  "summaries": {
+    "125": {
+      "total": 28,
+      "counts": {
+        "PASS": 10,
+        "PARTIAL": 14,
+        "FAIL": 4
+      },
+      "pass_pct": 35.7,
+      "partial_pct": 50.0,
+      "fail_pct": 14.3,
+      "weighted_score": 60.7,
+      "by_answer_type": {
+        "NUMERIC": {
+          "n": 5,
+          "PASS": 2,
+          "PARTIAL": 3,
+          "FAIL": 0,
+          "weighted": 0.7
+        },
+        "LIST": {
+          "n": 6,
+          "PASS": 2,
+          "PARTIAL": 4,
+          "FAIL": 0,
+          "weighted": 0.6666666666666666
+        },
+        "SYNTHESIS": {
+          "n": 8,
+          "PASS": 2,
+          "PARTIAL": 3,
+          "FAIL": 3,
+          "weighted": 0.4375
+        },
+        "TABLE_LOOKUP": {
+          "n": 2,
+          "PASS": 1,
+          "PARTIAL": 1,
+          "FAIL": 0,
+          "weighted": 0.75
+        },
+        "SINGLE_FACT": {
+          "n": 5,
+          "PASS": 2,
+          "PARTIAL": 2,
+          "FAIL": 1,
+          "weighted": 0.6
+        },
+        "SINGLE_FACT (negative": {
+          "n": 2,
+          "PASS": 1,
+          "PARTIAL": 1,
+          "FAIL": 0,
+          "weighted": 0.75
+        }
+      },
+      "by_sensitivity": {
+        "LOW": {
+          "n": 9,
+          "PASS": 4,
+          "PARTIAL": 4,
+          "FAIL": 1,
+          "weighted": 0.6666666666666666
+        },
+        "MEDIUM": {
+          "n": 8,
+          "PASS": 2,
+          "PARTIAL": 4,
+          "FAIL": 2,
+          "weighted": 0.5
+        },
+        "MEDIUM-HIGH": {
+          "n": 3,
+          "PASS": 1,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.6666666666666666
+        },
+        "HIGH": {
+          "n": 5,
+          "PASS": 2,
+          "PARTIAL": 2,
+          "FAIL": 1,
+          "weighted": 0.6
+        },
+        "LOW-MEDIUM": {
+          "n": 3,
+          "PASS": 1,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.6666666666666666
+        }
+      }
+    },
+    "150": {
+      "total": 28,
+      "counts": {
+        "PASS": 10,
+        "PARTIAL": 16,
+        "FAIL": 2
+      },
+      "pass_pct": 35.7,
+      "partial_pct": 57.1,
+      "fail_pct": 7.1,
+      "weighted_score": 64.3,
+      "by_answer_type": {
+        "NUMERIC": {
+          "n": 5,
+          "PASS": 3,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.8
+        },
+        "LIST": {
+          "n": 6,
+          "PASS": 2,
+          "PARTIAL": 4,
+          "FAIL": 0,
+          "weighted": 0.6666666666666666
+        },
+        "SYNTHESIS": {
+          "n": 8,
+          "PASS": 1,
+          "PARTIAL": 5,
+          "FAIL": 2,
+          "weighted": 0.4375
+        },
+        "TABLE_LOOKUP": {
+          "n": 2,
+          "PASS": 1,
+          "PARTIAL": 1,
+          "FAIL": 0,
+          "weighted": 0.75
+        },
+        "SINGLE_FACT": {
+          "n": 5,
+          "PASS": 2,
+          "PARTIAL": 3,
+          "FAIL": 0,
+          "weighted": 0.7
+        },
+        "SINGLE_FACT (negative": {
+          "n": 2,
+          "PASS": 1,
+          "PARTIAL": 1,
+          "FAIL": 0,
+          "weighted": 0.75
+        }
+      },
+      "by_sensitivity": {
+        "LOW": {
+          "n": 9,
+          "PASS": 4,
+          "PARTIAL": 5,
+          "FAIL": 0,
+          "weighted": 0.7222222222222222
+        },
+        "MEDIUM": {
+          "n": 8,
+          "PASS": 3,
+          "PARTIAL": 4,
+          "FAIL": 1,
+          "weighted": 0.625
+        },
+        "MEDIUM-HIGH": {
+          "n": 3,
+          "PASS": 0,
+          "PARTIAL": 3,
+          "FAIL": 0,
+          "weighted": 0.5
+        },
+        "HIGH": {
+          "n": 5,
+          "PASS": 1,
+          "PARTIAL": 3,
+          "FAIL": 1,
+          "weighted": 0.5
+        },
+        "LOW-MEDIUM": {
+          "n": 3,
+          "PASS": 2,
+          "PARTIAL": 1,
+          "FAIL": 0,
+          "weighted": 0.8333333333333334
+        }
+      }
+    },
+    "175": {
+      "total": 28,
+      "counts": {
+        "PASS": 12,
+        "PARTIAL": 14,
+        "FAIL": 2
+      },
+      "pass_pct": 42.9,
+      "partial_pct": 50.0,
+      "fail_pct": 7.1,
+      "weighted_score": 67.9,
+      "by_answer_type": {
+        "NUMERIC": {
+          "n": 5,
+          "PASS": 3,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.8
+        },
+        "LIST": {
+          "n": 6,
+          "PASS": 2,
+          "PARTIAL": 3,
+          "FAIL": 1,
+          "weighted": 0.5833333333333334
+        },
+        "SYNTHESIS": {
+          "n": 8,
+          "PASS": 3,
+          "PARTIAL": 4,
+          "FAIL": 1,
+          "weighted": 0.625
+        },
+        "TABLE_LOOKUP": {
+          "n": 2,
+          "PASS": 0,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.5
+        },
+        "SINGLE_FACT": {
+          "n": 5,
+          "PASS": 2,
+          "PARTIAL": 3,
+          "FAIL": 0,
+          "weighted": 0.7
+        },
+        "SINGLE_FACT (negative": {
+          "n": 2,
+          "PASS": 2,
+          "PARTIAL": 0,
+          "FAIL": 0,
+          "weighted": 1.0
+        }
+      },
+      "by_sensitivity": {
+        "LOW": {
+          "n": 9,
+          "PASS": 6,
+          "PARTIAL": 3,
+          "FAIL": 0,
+          "weighted": 0.8333333333333334
+        },
+        "MEDIUM": {
+          "n": 8,
+          "PASS": 5,
+          "PARTIAL": 3,
+          "FAIL": 0,
+          "weighted": 0.8125
+        },
+        "MEDIUM-HIGH": {
+          "n": 3,
+          "PASS": 0,
+          "PARTIAL": 2,
+          "FAIL": 1,
+          "weighted": 0.3333333333333333
+        },
+        "HIGH": {
+          "n": 5,
+          "PASS": 0,
+          "PARTIAL": 4,
+          "FAIL": 1,
+          "weighted": 0.4
+        },
+        "LOW-MEDIUM": {
+          "n": 3,
+          "PASS": 1,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.6666666666666666
+        }
+      }
+    },
+    "250": {
+      "total": 28,
+      "counts": {
+        "PASS": 13,
+        "PARTIAL": 12,
+        "FAIL": 3
+      },
+      "pass_pct": 46.4,
+      "partial_pct": 42.9,
+      "fail_pct": 10.7,
+      "weighted_score": 67.9,
+      "by_answer_type": {
+        "NUMERIC": {
+          "n": 5,
+          "PASS": 3,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.8
+        },
+        "LIST": {
+          "n": 6,
+          "PASS": 4,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.8333333333333334
+        },
+        "SYNTHESIS": {
+          "n": 8,
+          "PASS": 1,
+          "PARTIAL": 5,
+          "FAIL": 2,
+          "weighted": 0.4375
+        },
+        "TABLE_LOOKUP": {
+          "n": 2,
+          "PASS": 1,
+          "PARTIAL": 1,
+          "FAIL": 0,
+          "weighted": 0.75
+        },
+        "SINGLE_FACT": {
+          "n": 5,
+          "PASS": 3,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.8
+        },
+        "SINGLE_FACT (negative": {
+          "n": 2,
+          "PASS": 1,
+          "PARTIAL": 0,
+          "FAIL": 1,
+          "weighted": 0.5
+        }
+      },
+      "by_sensitivity": {
+        "LOW": {
+          "n": 9,
+          "PASS": 6,
+          "PARTIAL": 3,
+          "FAIL": 0,
+          "weighted": 0.8333333333333334
+        },
+        "MEDIUM": {
+          "n": 8,
+          "PASS": 4,
+          "PARTIAL": 3,
+          "FAIL": 1,
+          "weighted": 0.6875
+        },
+        "MEDIUM-HIGH": {
+          "n": 3,
+          "PASS": 1,
+          "PARTIAL": 2,
+          "FAIL": 0,
+          "weighted": 0.6666666666666666
+        },
+        "HIGH": {
+          "n": 5,
+          "PASS": 1,
+          "PARTIAL": 3,
+          "FAIL": 1,
+          "weighted": 0.5
+        },
+        "LOW-MEDIUM": {
+          "n": 3,
+          "PASS": 1,
+          "PARTIAL": 1,
+          "FAIL": 1,
+          "weighted": 0.5
+        }
+      }
+    }
+  },
+  "results": {
+    "125": [
+      {
+        "chunk_size": 125,
+        "id": "Q001",
+        "question": "How many paid annual leave days do full-time employees receive per year?",
+        "expected_answer": "24 paid days of annual leave per calendar year.",
+        "generated_answer": "Full-time employees receive 24 paid annual leave days per year.",
+        "retrieved_chunks": [
+          " **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Tr",
+          " | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          "\n# Appendix C — Leave Summary\n\n| Leave Type | Company Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity",
+        "source_sections": "7.1 Annual / Paid Leave; Appendix C"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q002",
+        "question": "At what rate does annual leave accrue?",
+        "expected_answer": "2 days per completed month of employment.",
+        "generated_answer": "Annual leave accrues at 2 days per completed month of employment.",
+        "retrieved_chunks": [
+          "nt, annual leave accrues at **2 days per completed month of employment**.\n\nEmployees joining or leaving during a calendar yea",
+          " | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          " **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Tr"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity, but this fact sits in a subsection nested under 7.1",
+        "source_sections": "7.1 Annual / Paid Leave — \"Leave Accrual\""
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q003",
+        "question": "How many unused annual leave days can be carried into the next calendar year?",
+        "expected_answer": "Up to 10 unused annual leave days.",
+        "generated_answer": "Unused annual leave days may be carried into the following calendar year unless applicable law requires a higher entitlement.",
+        "retrieved_chunks": [
+          "e days** may be carried into the following calendar year unless applicable law requires a higher entitlement.\n\nCarried-forwar",
+          " | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          " **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Tr"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity at the sentence level, but if chunked too aggressively by fixed token windows (not by heading), this line could be split from the \"Annual Leave\" heading, causing the model to misattribute it to a different leave type. Good test for heading-aware vs. naive chunking.",
+        "source_sections": "7.1 Annual / Paid Leave — \"Carry Forward\""
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q004",
+        "question": "How much advance notice is required to request annual leave of 1 to 3 working days versus more than 3 working days?",
+        "expected_answer": "7 days in advance for leave of 1–3 working days; 14 days in advance for leave longer than 3 working days.",
+        "generated_answer": "For annual leave of 1 to 3 working days, at least 7 days' advance notice is required. For leave longer than 3 working days, at least 14 days' advance notice is required.",
+        "retrieved_chunks": [
+          "ested at least:\n\n- **7 days in advance** for leave of 1–3 working days\n- **14 days in advance** for leave longer than 3 worki",
+          "ng days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on business requirements, but",
+          "erm emergencies\n- Other reasonable personal needs\n\nWhere practical, employees should request this leave in advance.\n\n---\n\n# 1"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium sensitivity",
+        "source_sections": "7.1 Annual / Paid Leave — \"Leave Approval\""
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q005",
+        "question": "How many paid sick days are employees entitled to per calendar year, and can unused sick leave be cashed out?",
+        "expected_answer": "12 paid sick days per calendar year. Unused sick leave is generally not convertible into cash unless required by applicable law.",
+        "generated_answer": "Employees are entitled to 12 paid sick days per calendar year. Unused sick leave is generally not convertible into cash unless required by applicable law.",
+        "retrieved_chunks": [
+          " paid sick days per calendar year**, subject to applicable law.\n\nSick leave may be used when an employee is unable to work du",
+          "where legally permitted.\n\nUnused sick leave is generally not convertible into cash unless required by applicable law.\n\n---\n\n#",
+          " managers should make reasonable efforts to accommodate employee leave.\n\n---\n\n# 8. Sick Leave\n\nEmployees are entitled to **12"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "8. Sick Leave"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q006",
+        "question": "How many paid casual/personal leave days can an employee take per year, and give two examples of when it can be used.",
+        "expected_answer": "6 paid personal/casual leave days per calendar year. Examples include urgent family matters and personal appointments (also: unexpected responsibilities, short-term emergencies).",
+        "generated_answer": "An employee can take up to 6 paid casual/personal leave days per year. Two examples of when it can be used are for short-term personal matters and rest.",
+        "retrieved_chunks": [
+          " 9. Casual / Personal Leave\n\nEmployees may take up to **6 paid personal/casual leave days per calendar year** for short-term ",
+          " | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          " **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Tr"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "9. Casual / Personal Leave"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q007",
+        "question": "How many weeks of maternity leave does Mindgraph AI provide as company policy, and does statutory law override this?",
+        "expected_answer": "Up to 26 weeks of maternity leave for eligible employees, subject to statutory eligibility and legal requirements. Where applicable law provides a greater benefit, the greater statutory entitlement applies.",
+        "generated_answer": "The provided information does not specify the number of weeks of maternity leave Mindgraph AI provides as company policy, nor does it clarify whether statutory law overrides this.",
+        "retrieved_chunks": [
+          " Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI pro",
+          "raph AI may publish an annual company holiday calendar.\n\n---\n\n# 11. Maternity Leave\n\nMindgraph AI supports employees during p",
+          " reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building "
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "11.1 Maternity Leave Entitlement"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q008",
+        "question": "How many days of paid paternity/partner leave are eligible employees entitled to, and within how many days of the birth or adoption must it generally be taken?",
+        "expected_answer": "10 working days of paid paternity/partner leave, generally to be taken within 90 days of the birth or placement of the child.",
+        "generated_answer": "Eligible employees are entitled to 10 working days of paid paternity/partner leave following the birth or adoption.",
+        "retrieved_chunks": [
+          "Leave\n\nEligible employees may receive **10 working days of paid paternity/partner leave** following the birth or adoption of ",
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working day",
+          "\n\nEmployees adopting a child may receive **12 weeks of paid adoption leave**, subject to applicable law and eligibility requi"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "12. Paternity / Partner Leave"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q009",
+        "question": "How many weeks of paid adoption leave are employees entitled to?",
+        "expected_answer": "12 weeks of paid adoption leave, subject to applicable law and eligibility requirements.",
+        "generated_answer": "Employees adopting a child may receive 12 weeks of paid adoption leave.",
+        "retrieved_chunks": [
+          "\n\nEmployees adopting a child may receive **12 weeks of paid adoption leave**, subject to applicable law and eligibility requi",
+          "Leave\n\nEligible employees may receive **10 working days of paid paternity/partner leave** following the birth or adoption of ",
+          "vides **up to 26 weeks of maternity leave for eligible employees**, subject to statutory eligibility and legal requirements.\n"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low",
+        "source_sections": "13. Adoption Leave"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q010",
+        "question": "How many paid bereavement leave days are employees entitled to, and which family members are generally covered?",
+        "expected_answer": "Up to 5 paid working days. Immediate family generally includes spouse or partner, parent, child, sibling, grandparent, and parent-in-law.",
+        "generated_answer": "Employees are entitled to up to 5 paid working days of bereavement leave following the death of an immediate family member.",
+        "retrieved_chunks": [
+          "Leave\n\nEmployees may receive up to **5 paid working days** following the death of an immediate family member.\n\nImmediate fami",
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working day",
+          "Leave\n\nEligible employees may receive **10 working days of paid paternity/partner leave** following the birth or adoption of "
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "14. Bereavement Leave"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q011",
+        "question": "Summarize all leave entitlements at Mindgraph AI in one list, including annual, sick, casual, maternity, paternity, adoption, and bereavement leave.",
+        "expected_answer": "Annual/Paid Leave: 24 days/year. Sick Leave: 12 days/year. Casual/Personal Leave: 6 days/year. Maternity Leave: up to 26 weeks (subject to statutory eligibility). Paternity/Partner Leave: 10 working days. Adoption Leave: 12 weeks. Bereavement Leave: up to 5 working days.",
+        "generated_answer": "- Annual leave (as per the annual company holiday calendar published by Mindgraph AI)  \n- Sick leave  \n- Casual leave  \n- Maternity leave (statutory maternity benefit applicable to the employee)  \n- Paternity leave  \n- Adoption leave  \n- Bereavement leave",
+        "retrieved_chunks": [
+          " Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI pro",
+          "raph AI may publish an annual company holiday calendar.\n\n---\n\n# 11. Maternity Leave\n\nMindgraph AI supports employees during p",
+          "in this HR Policy.\n\n---\n\n# 7. Leave Policy\n\nMindgraph AI believes employees should take adequate time away from work to rest,"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "TABLE_LOOKUP / SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "Sections 7–14 (individual); Appendix C — Leave Summary (consolidated table)"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q012",
+        "question": "Within how many business days will approved expenses normally be reimbursed?",
+        "expected_answer": "Normally within 10 business days after final approval, subject to payroll/banking processing timelines.",
+        "generated_answer": "Approved expenses will normally be reimbursed within 10 business days.",
+        "retrieved_chunks": [
+          "rsed within **10 business days** after final approval, subject to payroll/banking processing timelines.\n\n## 18.5 Travel Expen",
+          "eimbursed merely because it was incurred for work.\n\n## 18.4 Reimbursement Timeline\n\nApproved expenses will normally be reimbu",
+          "ng days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on business requirements, but"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low",
+        "source_sections": "18.4 Reimbursement Timeline"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q013",
+        "question": "List three types of expenses that are generally NOT reimbursable.",
+        "expected_answer": "Any three of: personal entertainment; alcohol (unless specifically approved for a legitimate business event); fines or penalties; personal shopping; unapproved upgrades; personal travel extensions; expenses for family members unless expressly approved.",
+        "generated_answer": "1. Personal entertainment  \n2. Alcohol unless specifically approved for a legitimate business purpose  \n3. (No third type explicitly listed in the provided information)",
+        "retrieved_chunks": [
+          "lowing are generally not reimbursable:\n\n- Personal entertainment\n- Alcohol unless specifically approved for a legitimate busi",
+          "Other pre-approved business expenses\n\n## 18.1 General Requirements\n\nExpenses must be:\n\n1. Business-related\n2. Reasonable\n3. N",
+          "terms.\n\nThis may include, where applicable:\n\n- Unpaid salary\n- Approved reimbursable expenses\n- Statutory payments\n- Accrued "
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "18.6 Personal Expenses"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q014",
+        "question": "What approval is recommended for a recurring SaaS subscription versus a routine local business expense?",
+        "expected_answer": "Routine local business expense: Manager. Recurring SaaS subscription: Manager + Finance.",
+        "generated_answer": "A recurring SaaS subscription requires approval from both Manager and Finance, whereas a routine local business expense requires approval from the Manager only.",
+        "retrieved_chunks": [
+          "Approval |\n|---|---|\n| Routine local business expense | Manager |\n| Business meal | Manager |\n| Software subscription | Manag",
+          "| Recurring SaaS subscription | Manager + Finance |\n\nThe company may establish specific monetary thresholds separately.\n\n---\n",
+          "ctor Agreement\n- Internship Agreement\n\n---\n\n# Appendix B — Recommended Expense Approval Matrix\n\n| Expense Type | Recommended "
+        ],
+        "verdict": "PASS",
+        "answer_type": "TABLE_LOOKUP",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "Appendix B — Recommended Expense Approval Matrix"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q015",
+        "question": "According to the AI and Data Usage Policy, what must employees NOT do with confidential or customer information?",
+        "expected_answer": "Employees must not enter confidential, personal, customer, regulated, or proprietary information into public AI systems unless the system has been approved for that type of data.",
+        "generated_answer": "Employees must NOT enter confidential or customer information into public AI systems or upload confidential information to unapproved third-party AI or SaaS platforms.",
+        "retrieved_chunks": [
+          "Employees must not enter confidential, personal, customer, regulated, or proprietary information into public AI systems unles",
+          " employees should not upload confidential information to unapproved third-party AI or SaaS platforms.\n\n---\n\n# 21. Professiona",
+          "mportant AI-generated information\n- Avoid representing unverified AI output as fact\n- Protect customer and employee data\n- Fo"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "27. AI and Data Usage Policy"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q016",
+        "question": "Does Section 20 (Software and SaaS Expenses) say anything relevant to the AI usage restrictions described in Section 27?",
+        "expected_answer": "Yes — Section 20 states employees should not upload confidential information to unapproved third-party AI or SaaS platforms, which reinforces the Section 27 rule against entering confidential/customer data into unapproved public AI systems.",
+        "generated_answer": "No, Section 20 (Software and SaaS Expenses) is not mentioned in the provided information and therefore does not say anything relevant to the AI usage restrictions described in Section 27.",
+        "retrieved_chunks": [
+          " employees should not upload confidential information to unapproved third-party AI or SaaS platforms.\n\n---\n\n# 21. Professiona",
+          "information during and after employment as required by their agreements and applicable law.\n\n---\n\n# 27. AI and Data Usage Pol",
+          "onable operational restrictions, except where applicable law provides otherwise.\n\n---\n\n# 18. Employee Expenses and Reimbursem"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "20. Software and SaaS Expenses; 27. AI and Data Usage Policy"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q017",
+        "question": "What law specifically governs sexual harassment complaints for employees in India, according to this policy?",
+        "expected_answer": "The Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act), where applicable.",
+        "generated_answer": "The Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act) specifically governs sexual harassment complaints for employees in India, according to this policy.",
+        "retrieved_chunks": [
+          " or another appropriate company representative.\n\nFor employees in India, complaints involving sexual harassment will be handl",
+          "ed in accordance with applicable law, including the Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act",
+          " a conflict between:\n\n1. Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will pre"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "25. Anti-Harassment and Anti-Discrimination"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q018",
+        "question": "What is the standard full-time working schedule described in the policy?",
+        "expected_answer": "Monday to Friday, 40 hours per week, subject to role, team requirements, applicable law, and employment agreement.",
+        "generated_answer": "The standard full-time working schedule is Monday to Friday, 40 hours per week.",
+        "retrieved_chunks": [
+          " employment terms.\n\n---\n\n# 4. Working Hours and Attendance\n\n## 4.1 Standard Working Hours\n\nThe standard full-time working sch",
+          "edule is generally:\n\n**Monday to Friday, 40 hours per week**, subject to the employee's role, team requirements, applicable l",
+          " | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "4.1 Standard Working Hours"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q019",
+        "question": "Under this policy, is remote work considered an exemption from normal performance and availability expectations?",
+        "expected_answer": "No — remote work is a working arrangement, not an exemption from normal performance or availability expectations.",
+        "generated_answer": "No, remote work is not considered an exemption from normal performance and availability expectations.",
+        "retrieved_chunks": [
+          "net, communication, and work equipment.\n\nRemote work is a working arrangement, not an exemption from normal performance or av",
+          "e\n- Applicable law\n\nEmployees working remotely are expected to maintain a professional working environment and adequate inter",
+          "y reachable during agreed working hours\n\n---\n\n# 5. Remote and Hybrid Work\n\nMindgraph AI may permit remote or hybrid work depe"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "5. Remote and Hybrid Work"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q020",
+        "question": "What happens if there is a conflict between applicable law, a signed employment agreement, and this HR Policy?",
+        "expected_answer": "Applicable law will prevail; contractual terms apply where legally enforceable and more specific than this general policy; where a mandatory legal requirement provides greater employee protection, Mindgraph AI will comply with that requirement.",
+        "generated_answer": "If there is a conflict between applicable law, a signed employment agreement, and this HR Policy, the applicable law will prevail.",
+        "retrieved_chunks": [
+          " a conflict between:\n\n1. Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will pre",
+          "43. Precedence of Law and Employment Agreements\n\nThis policy is intended to establish general company standards.\n\nIf there is",
+          "ents separately from this policy:\n\n- Employment Agreement\n- Offer Letter\n- Employee Handbook / HR Policy\n- Confidentiality an"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "43. Precedence of Law and Employment Agreements"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q021",
+        "question": "How many days notice must employees give before booking non-refundable travel based on an unapproved leave request?",
+        "expected_answer": "Trick question / not stated. The policy says employees should not book non-refundable travel based on an unapproved leave request unless they accept the risk it may not be approved — it does not specify a notice period for this specific scenario.",
+        "generated_answer": "Employees should not book non-refundable travel based on an unapproved leave request.",
+        "retrieved_chunks": [
+          "te\n\nManagers should respond to leave requests promptly.\n\nEmployees should not book non-refundable travel based on an unapprov",
+          "ested at least:\n\n- **7 days in advance** for leave of 1–3 working days\n- **14 days in advance** for leave longer than 3 worki",
+          "ng days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on business requirements, but"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT (negative/no-answer case)",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "16. Leave Request Process"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q022",
+        "question": "What is Mindgraph AI's official termination notice period for employees (e.g., 30 days, 60 days)?",
+        "expected_answer": "Not specified in this policy. The policy states employees should provide written notice \"in accordance with their employment agreement\" (Section 39) but does not itself define a specific number of days — this is a case where the document does not contain the answer.",
+        "generated_answer": "The provided information does not specify Mindgraph AI's official termination notice period for employees.",
+        "retrieved_chunks": [
+          " Date:** 5 September 2026  \n**Version:** 1.0  \n**Applies To:** All employees of Mindgraph AI, unless a written employment agr",
+          " reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building ",
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT (negative/no-answer case)",
+        "chunk_sensitivity": "Low",
+        "source_sections": "39. Resignation and Notice Period (does not contain a specific figure)"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q023",
+        "question": "What are the four employment categories other than full-time employees mentioned in the policy, and does the policy guarantee identical benefits across all categories?",
+        "expected_answer": "Part-time employees, fixed-term employees, interns or trainees, and contractors or consultants. No — benefits and statutory entitlements may differ according to employment classification and applicable law.",
+        "generated_answer": "The policy mentions three employment categories other than full-time employees: part-time employees, fixed-term employees, and an incomplete category (due to text cutoff). The policy does not state that identical benefits are guaranteed across all categories.",
+        "retrieved_chunks": [
+          "\n\n---\n\n# 3. Employment Categories\n\nEmployees may be classified as:\n\n- Full-time employees\n- Part-time employees\n- Fixed-term ",
+          "ents separately from this policy:\n\n- Employment Agreement\n- Offer Letter\n- Employee Handbook / HR Policy\n- Confidentiality an",
+          "\nThis HR Policy establishes the general employment standards, workplace expectations, leave benefits, compensation practices,"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "3. Employment Categories"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q024",
+        "question": "According to the Code of Conduct, name three prohibited employee behaviors.",
+        "expected_answer": "Any three of: harass or discriminate against colleagues; engage in workplace violence or threats; falsify company records; misuse company funds; steal company property; deliberately compromise company systems; misrepresent information to customers; use company resources for unlawful purposes; retaliate against employees who raise legitimate concerns.",
+        "generated_answer": "1. Harassing or discriminating against colleagues  \n2. Engaging in workplace violence or threats  \n3. Falsifying company records",
+        "retrieved_chunks": [
+          "duct\n\nEmployees must conduct themselves professionally and ethically.\n\nEmployees must not:\n\n- Harass or discriminate against ",
+          "colleagues\n- Engage in workplace violence or threats\n- Falsify company records\n- Misuse company funds\n- Steal company propert",
+          "commercial work\n- Hiring or supervising close relatives without disclosure\n- Accepting inappropriate gifts from vendors\n- Usi"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "24. Code of Conduct"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q025",
+        "question": "What equipment might Mindgraph AI provide to employees, and who owns it?",
+        "expected_answer": "Laptop/computer, monitor, keyboard/mouse, headset, mobile device, security hardware, and other necessary equipment. Company equipment remains company property unless expressly transferred to the employee.",
+        "generated_answer": "The provided information does not specify what equipment Mindgraph AI might provide to employees or who owns it.",
+        "retrieved_chunks": [
+          " reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building ",
+          "icy\n\nBecause Mindgraph AI develops and operates AI products, employees must exercise particular care when using AI systems.\n\n",
+          "l Development\n\nMindgraph AI encourages continuous learning.\n\nSubject to company approval and budget availability, the company"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "19. Company Equipment"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q026",
+        "question": "Compare the entitlement periods for maternity leave, paternity/ partner leave, and adoption leave, and note which one carries an explicit usage-timing deadline.",
+        "expected_answer": "Maternity leave: up to 26 weeks. Paternity/partner leave: 10 working days, generally to be taken within 90 days of the birth/ placement. Adoption leave: 12 weeks. Only paternity/partner leave has an explicit usage-timing deadline (90 days) stated in the policy.",
+        "generated_answer": "- Maternity Leave: Up to 26 weeks, subject to statutory eligibility  \n- Paternity/Partner Leave: 10 working days  \n- Adoption Leave: 12 weeks  \n\nThe paternity/partner leave carries an explicit usage-timing deadline, as it is provided following the birth or adoption.",
+        "retrieved_chunks": [
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working day",
+          "Leave\n\nEligible employees may receive **10 working days of paid paternity/partner leave** following the birth or adoption of ",
+          " | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "11. Maternity Leave; 12. Paternity/Partner Leave; 13. Adoption Leave"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q027",
+        "question": "What must employees do before purchasing an expensive or recurring software subscription, and where else in the document is a related approval rule given?",
+        "expected_answer": "Employees should not purchase expensive or recurring software subscriptions without authorization (Section 20). A related rule appears in Appendix B, which recommends \"Manager + Finance\" approval for software subscriptions and \"Manager + Finance\" for recurring SaaS subscriptions specifically.",
+        "generated_answer": "Employees must obtain approval from both their Manager and Finance before purchasing an expensive or recurring software subscription. A related approval rule is given for routine local business expenses and business meals, which require Manager approval.",
+        "retrieved_chunks": [
+          "nal resources\n\nEmployees should obtain approval before committing to significant expenses.\n\n---\n\n# 22. Performance Management",
+          "Approval |\n|---|---|\n| Routine local business expense | Manager |\n| Business meal | Manager |\n| Software subscription | Manag",
+          "| Recurring SaaS subscription | Manager + Finance |\n\nThe company may establish specific monetary thresholds separately.\n\n---\n"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "20. Software and SaaS Expenses; Appendix B"
+      },
+      {
+        "chunk_size": 125,
+        "id": "Q028",
+        "question": "What is the effective date and version number of this HR Policy?",
+        "expected_answer": "Effective Date: 5 September 2026. Version: 1.0.",
+        "generated_answer": "The effective date and version number of this HR Policy are not provided in the given information.",
+        "retrieved_chunks": [
+          "\nThis HR Policy establishes the general employment standards, workplace expectations, leave benefits, compensation practices,",
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective",
+          " a conflict between:\n\n1. Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will pre"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "Document header (top of policy)"
+      }
+    ],
+    "150": [
+      {
+        "chunk_size": 150,
+        "id": "Q001",
+        "question": "How many paid annual leave days do full-time employees receive per year?",
+        "expected_answer": "24 paid days of annual leave per calendar year.",
+        "generated_answer": "Full-time employees receive 24 paid days of annual leave per calendar year.",
+        "retrieved_chunks": [
+          "loyment agreement.\n\n## 7.1 Annual / Paid Leave\n\nFull-time employees receive **24 paid days of annual leave per calendar year**.\n\nAnnual leave is inten",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Lea",
+          "in the employment agreement, annual leave accrues at **2 days per completed month of employment**.\n\nEmployees joining or leaving during a calendar yea"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity",
+        "source_sections": "7.1 Annual / Paid Leave; Appendix C"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q002",
+        "question": "At what rate does annual leave accrue?",
+        "expected_answer": "2 days per completed month of employment.",
+        "generated_answer": "Annual leave accrues at 2 days per completed month of employment.",
+        "retrieved_chunks": [
+          "in the employment agreement, annual leave accrues at **2 days per completed month of employment**.\n\nEmployees joining or leaving during a calendar yea",
+          "loyment agreement.\n\n## 7.1 Annual / Paid Leave\n\nFull-time employees receive **24 paid days of annual leave per calendar year**.\n\nAnnual leave is inten",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Lea"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity, but this fact sits in a subsection nested under 7.1",
+        "source_sections": "7.1 Annual / Paid Leave — \"Leave Accrual\""
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q003",
+        "question": "How many unused annual leave days can be carried into the next calendar year?",
+        "expected_answer": "Up to 10 unused annual leave days.",
+        "generated_answer": "Up to 10 unused annual leave days may be carried into the next calendar year.",
+        "retrieved_chunks": [
+          "nto the following calendar year unless applicable law requires a higher entitlement.\n\nCarried-forward leave should generally be used within the follow",
+          "r will generally receive a prorated entitlement, subject to applicable law.\n\n### Carry Forward\n\nUp to **10 unused annual leave days** may be carried i",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Lea"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity at the sentence level, but if chunked too aggressively by fixed token windows (not by heading), this line could be split from the \"Annual Leave\" heading, causing the model to misattribute it to a different leave type. Good test for heading-aware vs. naive chunking.",
+        "source_sections": "7.1 Annual / Paid Leave — \"Carry Forward\""
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q004",
+        "question": "How much advance notice is required to request annual leave of 1 to 3 working days versus more than 3 working days?",
+        "expected_answer": "7 days in advance for leave of 1–3 working days; 14 days in advance for leave longer than 3 working days.",
+        "generated_answer": "Annual leave of 1 to 3 working days should be requested at least 7 days in advance. Annual leave longer than 3 working days should be requested at least 14 days in advance.",
+        "retrieved_chunks": [
+          "14 days in advance** for leave longer than 3 working days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on b",
+          "ing year.\n\n### Leave Approval\n\nPlanned annual leave should normally be requested at least:\n\n- **7 days in advance** for leave of 1–3 working days\n- **",
+          "ave | Up to 5 working days |\n| Public Holidays | As applicable to employee location |\n| Unpaid Leave | Subject to approval and applicable law |\n\n> **L"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium sensitivity",
+        "source_sections": "7.1 Annual / Paid Leave — \"Leave Approval\""
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q005",
+        "question": "How many paid sick days are employees entitled to per calendar year, and can unused sick leave be cashed out?",
+        "expected_answer": "12 paid sick days per calendar year. Unused sick leave is generally not convertible into cash unless required by applicable law.",
+        "generated_answer": "Employees are entitled to 12 paid sick days per calendar year. There is no information provided about cashing out unused sick leave.",
+        "retrieved_chunks": [
+          " paid sick days per calendar year**, subject to applicable law.\n\nSick leave may be used when an employee is unable to work due to illness, injury, med",
+          "usiness requirements, but managers should make reasonable efforts to accommodate employee leave.\n\n---\n\n# 8. Sick Leave\n\nEmployees are entitled to **12",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Lea"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "8. Sick Leave"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q006",
+        "question": "How many paid casual/personal leave days can an employee take per year, and give two examples of when it can be used.",
+        "expected_answer": "6 paid personal/casual leave days per calendar year. Examples include urgent family matters and personal appointments (also: unexpected responsibilities, short-term emergencies).",
+        "generated_answer": "An employee can take up to 6 paid casual/personal leave days per year. Two examples of when it can be used are for personal matters or casual reasons.",
+        "retrieved_chunks": [
+          "to cash unless required by applicable law.\n\n---\n\n# 9. Casual / Personal Leave\n\nEmployees may take up to **6 paid personal/casual leave days per calend",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Lea",
+          "loyment agreement.\n\n## 7.1 Annual / Paid Leave\n\nFull-time employees receive **24 paid days of annual leave per calendar year**.\n\nAnnual leave is inten"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "9. Casual / Personal Leave"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q007",
+        "question": "How many weeks of maternity leave does Mindgraph AI provide as company policy, and does statutory law override this?",
+        "expected_answer": "Up to 26 weeks of maternity leave for eligible employees, subject to statutory eligibility and legal requirements. Where applicable law provides a greater benefit, the greater statutory entitlement applies.",
+        "generated_answer": "Mindgraph AI provides up to 26 weeks of maternity leave as company policy. Where applicable law provides a more favorable employee benefit or protection than this policy, the law will prevail.",
+        "retrieved_chunks": [
+          " Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI provides **up to 26 weeks of",
+          "ty Leave\n\nMindgraph AI supports employees during pregnancy, childbirth, and the transition to parenthood.\n\n## 11.1 Maternity Leave Entitlement\n\nEligib",
+          "n which Mindgraph AI employs people. Where applicable law provides a more favorable employee benefit or protection than this policy, the law will prev"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "11.1 Maternity Leave Entitlement"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q008",
+        "question": "How many days of paid paternity/partner leave are eligible employees entitled to, and within how many days of the birth or adoption must it generally be taken?",
+        "expected_answer": "10 working days of paid paternity/partner leave, generally to be taken within 90 days of the birth or placement of the child.",
+        "generated_answer": "Eligible employees are entitled to 10 working days of paid paternity/partner leave. The information provided does not specify within how many days of the birth or adoption this leave must generally be taken.",
+        "retrieved_chunks": [
+          "ey took legally protected maternity leave.\n\n---\n\n# 12. Paternity / Partner Leave\n\nEligible employees may receive **10 working days of paid paternity/p",
+          "ve | Up to 26 weeks, subject to statutory eligibility |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Le",
+          "\n\nEmployees adopting a child may receive **12 weeks of paid adoption leave**, subject to applicable law and eligibility requirements.\n\nWhere applicabl"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "12. Paternity / Partner Leave"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q009",
+        "question": "How many weeks of paid adoption leave are employees entitled to?",
+        "expected_answer": "12 weeks of paid adoption leave, subject to applicable law and eligibility requirements.",
+        "generated_answer": "Employees are entitled to 12 weeks of paid adoption leave.",
+        "retrieved_chunks": [
+          "\n\nEmployees adopting a child may receive **12 weeks of paid adoption leave**, subject to applicable law and eligibility requirements.\n\nWhere applicabl",
+          "ve | Up to 26 weeks, subject to statutory eligibility |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Le",
+          "ild, unless otherwise approved.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 13. Adoption Leave"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low",
+        "source_sections": "13. Adoption Leave"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q010",
+        "question": "How many paid bereavement leave days are employees entitled to, and which family members are generally covered?",
+        "expected_answer": "Up to 5 paid working days. Immediate family generally includes spouse or partner, parent, child, sibling, grandparent, and parent-in-law.",
+        "generated_answer": "Employees are entitled to up to 5 paid working days of bereavement leave. The leave generally covers immediate family members.",
+        "retrieved_chunks": [
+          "e law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 14. Bereavement Leave\n\nEmployees may receive up to **5 paid workin",
+          "ve | Up to 26 weeks, subject to statutory eligibility |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Le",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Lea"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "14. Bereavement Leave"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q011",
+        "question": "Summarize all leave entitlements at Mindgraph AI in one list, including annual, sick, casual, maternity, paternity, adoption, and bereavement leave.",
+        "expected_answer": "Annual/Paid Leave: 24 days/year. Sick Leave: 12 days/year. Casual/Personal Leave: 6 days/year. Maternity Leave: up to 26 weeks (subject to statutory eligibility). Paternity/Partner Leave: 10 working days. Adoption Leave: 12 weeks. Bereavement Leave: up to 5 working days.",
+        "generated_answer": "- Annual Leave: Not specified in the provided information.  \n- Sick Leave: Not specified in the provided information.  \n- Casual Leave: Not specified in the provided information.  \n- Maternity Leave: Up to 26 weeks as company policy, plus statutory maternity benefit.  \n- Paternity Leave: Not specified in the provided information.  \n- Adoption Leave: Not specified in the provided information.  \n- Bereavement Leave: Not specified in the provided information.",
+        "retrieved_chunks": [
+          "ty Leave\n\nMindgraph AI supports employees during pregnancy, childbirth, and the transition to parenthood.\n\n## 11.1 Maternity Leave Entitlement\n\nEligib",
+          " Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI provides **up to 26 weeks of",
+          "in this HR Policy.\n\n---\n\n# 7. Leave Policy\n\nMindgraph AI believes employees should take adequate time away from work to rest, handle personal responsi"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "TABLE_LOOKUP / SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "Sections 7–14 (individual); Appendix C — Leave Summary (consolidated table)"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q012",
+        "question": "Within how many business days will approved expenses normally be reimbursed?",
+        "expected_answer": "Normally within 10 business days after final approval, subject to payroll/banking processing timelines.",
+        "generated_answer": "Approved expenses will normally be reimbursed within 10 business days after final approval.",
+        "retrieved_chunks": [
+          "s will normally be reimbursed within **10 business days** after final approval, subject to payroll/banking processing timelines.\n\n## 18.5 Travel Expen",
+          "loyees should not assume that an expense will be reimbursed merely because it was incurred for work.\n\n## 18.4 Reimbursement Timeline\n\nApproved expense",
+          "ecessary\n4. Properly documented\n5. Submitted within the applicable reimbursement period\n\nEmployees should use company payment methods where available."
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low",
+        "source_sections": "18.4 Reimbursement Timeline"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q013",
+        "question": "List three types of expenses that are generally NOT reimbursable.",
+        "expected_answer": "Any three of: personal entertainment; alcohol (unless specifically approved for a legitimate business event); fines or penalties; personal shopping; unapproved upgrades; personal travel extensions; expenses for family members unless expressly approved.",
+        "generated_answer": "- Personal entertainment  \n- Alcohol  \n- Personal expenses (implied by context)",
+        "retrieved_chunks": [
+          "erally requires prior written approval.\n\n## 18.6 Personal Expenses\n\nThe following are generally not reimbursable:\n\n- Personal entertainment\n- Alcohol ",
+          "loyees should not assume that an expense will be reimbursed merely because it was incurred for work.\n\n## 18.4 Reimbursement Timeline\n\nApproved expense",
+          "nferences\n- Work-related meals\n- Local transportation\n- Accommodation\n- Business software\n- Internet or communication expenses where specifically appr"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "18.6 Personal Expenses"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q014",
+        "question": "What approval is recommended for a recurring SaaS subscription versus a routine local business expense?",
+        "expected_answer": "Routine local business expense: Manager. Recurring SaaS subscription: Manager + Finance.",
+        "generated_answer": "For a recurring SaaS subscription, the recommended approval is Management + Finance. For a routine local business expense, the recommended approval is Manager.",
+        "retrieved_chunks": [
+          "nse Approval Matrix\n\n| Expense Type | Recommended Approval |\n|---|---|\n| Routine local business expense | Manager |\n| Business meal | Manager |\n| Soft",
+          "travel | Manager + Management |\n| Equipment purchase | Manager + IT/Finance |\n| High-value purchase | Management + Finance |\n| Recurring SaaS subscrip",
+          "explanation and alternative evidence where possible.\n\n## 18.3 Expense Approval\n\nExpenses above company-defined limits may require prior approval.\n\nEmp"
+        ],
+        "verdict": "PASS",
+        "answer_type": "TABLE_LOOKUP",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "Appendix B — Recommended Expense Approval Matrix"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q015",
+        "question": "According to the AI and Data Usage Policy, what must employees NOT do with confidential or customer information?",
+        "expected_answer": "Employees must not enter confidential, personal, customer, regulated, or proprietary information into public AI systems unless the system has been approved for that type of data.",
+        "generated_answer": "Employees must not disclose confidential company information or publish customer information without authorization. They must also not enter confidential, personal, customer, regulated, or proprietary information into public AI systems unless the system has been approved for that type of data.",
+        "retrieved_chunks": [
+          " use social media in their personal capacity.\n\nEmployees should not:\n\n- Disclose confidential company information\n- Publish customer information witho",
+          " products, employees must exercise particular care when using AI systems.\n\nEmployees must not enter confidential, personal, customer, regulated, or pr",
+          "oprietary information into public AI systems unless the system has been approved for that type of data.\n\nEmployees should:\n\n- Use approved AI tools fo"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "27. AI and Data Usage Policy"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q016",
+        "question": "Does Section 20 (Software and SaaS Expenses) say anything relevant to the AI usage restrictions described in Section 27?",
+        "expected_answer": "Yes — Section 20 states employees should not upload confidential information to unapproved third-party AI or SaaS platforms, which reinforces the Section 27 rule against entering confidential/customer data into unapproved public AI systems.",
+        "generated_answer": "No, Section 20 (Software and SaaS Expenses) does not say anything relevant to the AI usage restrictions described in Section 27.",
+        "retrieved_chunks": [
+          "ter employment as required by their agreements and applicable law.\n\n---\n\n# 27. AI and Data Usage Policy\n\nBecause Mindgraph AI develops and operates AI",
+          "ctions, except where applicable law provides otherwise.\n\n---\n\n# 18. Employee Expenses and Reimbursements\n\nMindgraph AI will reimburse reasonable and n",
+          "ompany equipment.\n\nLoss, theft, or suspected compromise of company equipment should be reported promptly.\n\n---\n\n# 20. Software and SaaS Expenses\n\nEmpl"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "20. Software and SaaS Expenses; 27. AI and Data Usage Policy"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q017",
+        "question": "What law specifically governs sexual harassment complaints for employees in India, according to this policy?",
+        "expected_answer": "The Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act), where applicable.",
+        "generated_answer": "The Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act).",
+        "retrieved_chunks": [
+          "or employees in India, complaints involving sexual harassment will be handled in accordance with applicable law, including the Prevention of Sexual Ha",
+          "rassment of Women at Workplace Act, 2013 (POSH Act), where applicable.\n\n---\n\n# 26. Confidentiality\n\nEmployees may have access to confidential informat",
+          "should not unlawfully discriminate on the basis of characteristics protected by applicable law.\n\nHarassment may include:\n\n- Verbal abuse\n- Unwelcome s"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "25. Anti-Harassment and Anti-Discrimination"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q018",
+        "question": "What is the standard full-time working schedule described in the policy?",
+        "expected_answer": "Monday to Friday, 40 hours per week, subject to role, team requirements, applicable law, and employment agreement.",
+        "generated_answer": "The standard full-time working schedule is Monday to Friday, 40 hours per week.",
+        "retrieved_chunks": [
+          " specify their applicable employment terms.\n\n---\n\n# 4. Working Hours and Attendance\n\n## 4.1 Standard Working Hours\n\nThe standard full-time working sch",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Lea",
+          "edule is generally:\n\n**Monday to Friday, 40 hours per week**, subject to the employee's role, team requirements, applicable law, and employment agreem"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "4.1 Standard Working Hours"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q019",
+        "question": "Under this policy, is remote work considered an exemption from normal performance and availability expectations?",
+        "expected_answer": "No — remote work is a working arrangement, not an exemption from normal performance or availability expectations.",
+        "generated_answer": "No, remote work is not considered an exemption from normal performance and availability expectations.",
+        "retrieved_chunks": [
+          " expected to maintain a professional working environment and adequate internet, communication, and work equipment.\n\nRemote work is a working arrangeme",
+          "nt, not an exemption from normal performance or availability expectations.\n\nMindgraph AI may require employees to attend occasional in-person meetings",
+          "bilities\n- Team requirements\n- Security considerations\n- Customer requirements\n- Employee performance\n- Applicable law\n\nEmployees working remotely are"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "5. Remote and Hybrid Work"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q020",
+        "question": "What happens if there is a conflict between applicable law, a signed employment agreement, and this HR Policy?",
+        "expected_answer": "Applicable law will prevail; contractual terms apply where legally enforceable and more specific than this general policy; where a mandatory legal requirement provides greater employee protection, Mindgraph AI will comply with that requirement.",
+        "generated_answer": "If there is a conflict between applicable law, a signed employment agreement, and this HR Policy, the applicable law will prevail. Contractual terms will apply where legally enforceable and more specific.",
+        "retrieved_chunks": [
+          "ed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will prevail. Contractual terms will apply where legally enforceable and more speci",
+          " Employment Agreements\n\nThis policy is intended to establish general company standards.\n\nIf there is a conflict between:\n\n1. Applicable law,\n2. A sign",
+          "but should be handled consistently with applicable law.\n\n---\n\n# 42. Policy Administration\n\nHR and management are responsible for administering this po"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "43. Precedence of Law and Employment Agreements"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q021",
+        "question": "How many days notice must employees give before booking non-refundable travel based on an unapproved leave request?",
+        "expected_answer": "Trick question / not stated. The policy says employees should not book non-refundable travel based on an unapproved leave request unless they accept the risk it may not be approved — it does not specify a notice period for this specific scenario.",
+        "generated_answer": "Employees should not book non-refundable travel based on an unapproved leave request.",
+        "retrieved_chunks": [
+          "14 days in advance** for leave longer than 3 working days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on b",
+          "ed\n- Emergency contact information where appropriate\n\nManagers should respond to leave requests promptly.\n\nEmployees should not book non-refundable tr",
+          "ing year.\n\n### Leave Approval\n\nPlanned annual leave should normally be requested at least:\n\n- **7 days in advance** for leave of 1–3 working days\n- **"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT (negative/no-answer case)",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "16. Leave Request Process"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q022",
+        "question": "What is Mindgraph AI's official termination notice period for employees (e.g., 30 days, 60 days)?",
+        "expected_answer": "Not specified in this policy. The policy states employees should provide written notice \"in accordance with their employment agreement\" (Section 39) but does not itself define a specific number of days — this is a case where the document does not contain the answer.",
+        "generated_answer": "The provided information does not specify Mindgraph AI's official termination notice period for employees.",
+        "retrieved_chunks": [
+          " Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI provides **up to 26 weeks of",
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective Date:** 5 September 2026",
+          "  \n**Version:** 1.0  \n**Applies To:** All employees of Mindgraph AI, unless a written employment agreement or applicable law provides otherwise.\n\n> **"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT (negative/no-answer case)",
+        "chunk_sensitivity": "Low",
+        "source_sections": "39. Resignation and Notice Period (does not contain a specific figure)"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q023",
+        "question": "What are the four employment categories other than full-time employees mentioned in the policy, and does the policy guarantee identical benefits across all categories?",
+        "expected_answer": "Part-time employees, fixed-term employees, interns or trainees, and contractors or consultants. No — benefits and statutory entitlements may differ according to employment classification and applicable law.",
+        "generated_answer": "The four employment categories other than full-time employees mentioned in the policy are part-time employees, fixed-term employees, interns or trainees, and contractors or consultants. The policy does not guarantee identical benefits across all categories, as statutory entitlements may differ according to employment classification and applicable law.",
+        "retrieved_chunks": [
+          "e classified as:\n\n- Full-time employees\n- Part-time employees\n- Fixed-term employees\n- Interns or trainees\n- Contractors or consultants\n\nBenefits and ",
+          " specify their applicable employment terms.\n\n---\n\n# 4. Working Hours and Attendance\n\n## 4.1 Standard Working Hours\n\nThe standard full-time working sch",
+          "statutory entitlements may differ according to employment classification and applicable law.\n\nThe employee's offer letter or employment agreement will"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "3. Employment Categories"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q024",
+        "question": "According to the Code of Conduct, name three prohibited employee behaviors.",
+        "expected_answer": "Any three of: harass or discriminate against colleagues; engage in workplace violence or threats; falsify company records; misuse company funds; steal company property; deliberately compromise company systems; misrepresent information to customers; use company resources for unlawful purposes; retaliate against employees who raise legitimate concerns.",
+        "generated_answer": "1. Harassing or discriminating against others  \n2. Accepting inappropriate gifts from vendors  \n3. Using company resources for unlawful purposes",
+        "retrieved_chunks": [
+          ".\n\n---\n\n# 24. Code of Conduct\n\nEmployees must conduct themselves professionally and ethically.\n\nEmployees must not:\n\n- Harass or discriminate against ",
+          "commercial work\n- Hiring or supervising close relatives without disclosure\n- Accepting inappropriate gifts from vendors\n- Using confidential informati",
+          "se company systems\n- Misrepresent information to customers\n- Use company resources for unlawful purposes\n- Retaliate against employees who raise legit"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "24. Code of Conduct"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q025",
+        "question": "What equipment might Mindgraph AI provide to employees, and who owns it?",
+        "expected_answer": "Laptop/computer, monitor, keyboard/mouse, headset, mobile device, security hardware, and other necessary equipment. Company equipment remains company property unless expressly transferred to the employee.",
+        "generated_answer": "The provided information does not specify what equipment Mindgraph AI might provide to employees or who owns it.",
+        "retrieved_chunks": [
+          " reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building a workplace that is:\n\n- P",
+          "  \n**Version:** 1.0  \n**Applies To:** All employees of Mindgraph AI, unless a written employment agreement or applicable law provides otherwise.\n\n> **",
+          "n which Mindgraph AI employs people. Where applicable law provides a more favorable employee benefit or protection than this policy, the law will prev"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "19. Company Equipment"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q026",
+        "question": "Compare the entitlement periods for maternity leave, paternity/ partner leave, and adoption leave, and note which one carries an explicit usage-timing deadline.",
+        "expected_answer": "Maternity leave: up to 26 weeks. Paternity/partner leave: 10 working days, generally to be taken within 90 days of the birth/ placement. Adoption leave: 12 weeks. Only paternity/partner leave has an explicit usage-timing deadline (90 days) stated in the policy.",
+        "generated_answer": "- Maternity Leave: Up to 26 weeks, subject to statutory eligibility.  \n- Paternity/Partner Leave: 10 working days.  \n- Adoption Leave: 12 weeks.\n\nThe entitlement that carries an explicit usage-timing deadline is Paternity/Partner Leave (10 working days).",
+        "retrieved_chunks": [
+          "ve | Up to 26 weeks, subject to statutory eligibility |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Le",
+          "ild, unless otherwise approved.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 13. Adoption Leave",
+          "ey took legally protected maternity leave.\n\n---\n\n# 12. Paternity / Partner Leave\n\nEligible employees may receive **10 working days of paid paternity/p"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "11. Maternity Leave; 12. Paternity/Partner Leave; 13. Adoption Leave"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q027",
+        "question": "What must employees do before purchasing an expensive or recurring software subscription, and where else in the document is a related approval rule given?",
+        "expected_answer": "Employees should not purchase expensive or recurring software subscriptions without authorization (Section 20). A related rule appears in Appendix B, which recommends \"Manager + Finance\" approval for software subscriptions and \"Manager + Finance\" for recurring SaaS subscriptions specifically.",
+        "generated_answer": "Before purchasing an expensive or recurring software subscription, employees must obtain prior approval from Management and Finance. A related approval rule is given in the Expense Approval Matrix, which specifies that recurring SaaS subscriptions require approval from Management and Finance.",
+        "retrieved_chunks": [
+          "explanation and alternative evidence where possible.\n\n## 18.3 Expense Approval\n\nExpenses above company-defined limits may require prior approval.\n\nEmp",
+          "travel | Manager + Management |\n| Equipment purchase | Manager + IT/Finance |\n| High-value purchase | Management + Finance |\n| Recurring SaaS subscrip",
+          "nse Approval Matrix\n\n| Expense Type | Recommended Approval |\n|---|---|\n| Routine local business expense | Manager |\n| Business meal | Manager |\n| Soft"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "20. Software and SaaS Expenses; Appendix B"
+      },
+      {
+        "chunk_size": 150,
+        "id": "Q028",
+        "question": "What is the effective date and version number of this HR Policy?",
+        "expected_answer": "Effective Date: 5 September 2026. Version: 1.0.",
+        "generated_answer": "The effective date of this HR Policy is 5 September 2026. The version number is not provided.",
+        "retrieved_chunks": [
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective Date:** 5 September 2026",
+          "__\n\n**Date:** ____________________________________________\n\n**Signature:** ________________________________________\n\n**HR / Authorized Representative:",
+          "Important:** This policy is a general company HR framework and should be reviewed and adapted by qualified employment counsel for each country/state i"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "Document header (top of policy)"
+      }
+    ],
+    "175": [
+      {
+        "chunk_size": 175,
+        "id": "Q001",
+        "question": "How many paid annual leave days do full-time employees receive per year?",
+        "expected_answer": "24 paid days of annual leave per calendar year.",
+        "generated_answer": "Full-time employees receive 24 paid days of annual leave per calendar year.",
+        "retrieved_chunks": [
+          "ll-time employees receive **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Travel\n- Personal commitmen",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subj",
+          "sonable efforts to accommodate employee leave.\n\n---\n\n# 8. Sick Leave\n\nEmployees are entitled to **12 paid sick days per calendar year**, subject to applicable law.\n\nSick leave"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity",
+        "source_sections": "7.1 Annual / Paid Leave; Appendix C"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q002",
+        "question": "At what rate does annual leave accrue?",
+        "expected_answer": "2 days per completed month of employment.",
+        "generated_answer": "Annual leave accrues at 2 days per completed month of employment.",
+        "retrieved_chunks": [
+          "ts\n- Other planned absences\n\n### Leave Accrual\n\nUnless otherwise specified in the employment agreement, annual leave accrues at **2 days per completed month of employment**.\n\n",
+          "ll-time employees receive **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Travel\n- Personal commitmen",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subj"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity, but this fact sits in a subsection nested under 7.1",
+        "source_sections": "7.1 Annual / Paid Leave — \"Leave Accrual\""
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q003",
+        "question": "How many unused annual leave days can be carried into the next calendar year?",
+        "expected_answer": "Up to 10 unused annual leave days.",
+        "generated_answer": "Up to 10 unused annual leave days can be carried into the next calendar year.",
+        "retrieved_chunks": [
+          "e days** may be carried into the following calendar year unless applicable law requires a higher entitlement.\n\nCarried-forward leave should generally be used within the follow",
+          "Employees joining or leaving during a calendar year will generally receive a prorated entitlement, subject to applicable law.\n\n### Carry Forward\n\nUp to **10 unused annual leav",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subj"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity at the sentence level, but if chunked too aggressively by fixed token windows (not by heading), this line could be split from the \"Annual Leave\" heading, causing the model to misattribute it to a different leave type. Good test for heading-aware vs. naive chunking.",
+        "source_sections": "7.1 Annual / Paid Leave — \"Carry Forward\""
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q004",
+        "question": "How much advance notice is required to request annual leave of 1 to 3 working days versus more than 3 working days?",
+        "expected_answer": "7 days in advance for leave of 1–3 working days; 14 days in advance for leave longer than 3 working days.",
+        "generated_answer": "For annual leave of 1–3 working days, a request should be made at least 7 days in advance. For leave longer than 3 working days, a request should be made at least 14 days in advance.",
+        "retrieved_chunks": [
+          "ing year.\n\n### Leave Approval\n\nPlanned annual leave should normally be requested at least:\n\n- **7 days in advance** for leave of 1–3 working days\n- **14 days in advance** for ",
+          "leave longer than 3 working days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on business requirements, but managers should make rea",
+          "easonable personal needs\n\nWhere practical, employees should request this leave in advance.\n\n---\n\n# 10. Public Holidays\n\nEmployees will receive holidays applicable to their emp"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium sensitivity",
+        "source_sections": "7.1 Annual / Paid Leave — \"Leave Approval\""
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q005",
+        "question": "How many paid sick days are employees entitled to per calendar year, and can unused sick leave be cashed out?",
+        "expected_answer": "12 paid sick days per calendar year. Unused sick leave is generally not convertible into cash unless required by applicable law.",
+        "generated_answer": "Employees are entitled to 12 paid sick days per calendar year. There is no information provided about whether unused sick leave can be cashed out.",
+        "retrieved_chunks": [
+          "sonable efforts to accommodate employee leave.\n\n---\n\n# 8. Sick Leave\n\nEmployees are entitled to **12 paid sick days per calendar year**, subject to applicable law.\n\nSick leave",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subj",
+          "ll-time employees receive **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Travel\n- Personal commitmen"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "8. Sick Leave"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q006",
+        "question": "How many paid casual/personal leave days can an employee take per year, and give two examples of when it can be used.",
+        "expected_answer": "6 paid personal/casual leave days per calendar year. Examples include urgent family matters and personal appointments (also: unexpected responsibilities, short-term emergencies).",
+        "generated_answer": "An employee can take up to 6 paid casual/personal leave days per year. Two examples of when it can be used are for personal commitments and rest.",
+        "retrieved_chunks": [
+          "erally not convertible into cash unless required by applicable law.\n\n---\n\n# 9. Casual / Personal Leave\n\nEmployees may take up to **6 paid personal/casual leave days per calend",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subj",
+          "ll-time employees receive **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Travel\n- Personal commitmen"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "9. Casual / Personal Leave"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q007",
+        "question": "How many weeks of maternity leave does Mindgraph AI provide as company policy, and does statutory law override this?",
+        "expected_answer": "Up to 26 weeks of maternity leave for eligible employees, subject to statutory eligibility and legal requirements. Where applicable law provides a greater benefit, the greater statutory entitlement applies.",
+        "generated_answer": "Mindgraph AI provides up to 26 weeks of maternity leave as company policy. The statutory maternity benefit applicable to the employee, as per the Benefit Act, will be provided, meaning statutory law applies and may override company policy if different.",
+        "retrieved_chunks": [
+          " Benefit Act, as amended, Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI provides **up to 26 weeks of",
+          "raph AI may publish an annual company holiday calendar.\n\n---\n\n# 11. Maternity Leave\n\nMindgraph AI supports employees during pregnancy, childbirth, and the transition to parent",
+          "ectations, leave benefits, compensation practices, reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building "
+        ],
+        "verdict": "PASS",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "11.1 Maternity Leave Entitlement"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q008",
+        "question": "How many days of paid paternity/partner leave are eligible employees entitled to, and within how many days of the birth or adoption must it generally be taken?",
+        "expected_answer": "10 working days of paid paternity/partner leave, generally to be taken within 90 days of the birth or placement of the child.",
+        "generated_answer": "Eligible employees are entitled to 10 working days of paid paternity/partner leave, which should generally be taken within 90 days of the birth or adoption of the child.",
+        "retrieved_chunks": [
+          "antaged solely because they took legally protected maternity leave.\n\n---\n\n# 12. Paternity / Partner Leave\n\nEligible employees may receive **10 working days of paid paternity/p",
+          "ect to statutory eligibility |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | A",
+          "artner leave** following the birth or adoption of a child.\n\nThe leave should generally be taken within **90 days** of the birth or placement of the child, unless otherwise app"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "12. Paternity / Partner Leave"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q009",
+        "question": "How many weeks of paid adoption leave are employees entitled to?",
+        "expected_answer": "12 weeks of paid adoption leave, subject to applicable law and eligibility requirements.",
+        "generated_answer": "Employees are entitled to 12 weeks of paid adoption leave.",
+        "retrieved_chunks": [
+          "s of paid adoption leave**, subject to applicable law and eligibility requirements.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.",
+          "roved.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 13. Adoption Leave\n\nEmployees adopting a child may receive **12 week",
+          "artner leave** following the birth or adoption of a child.\n\nThe leave should generally be taken within **90 days** of the birth or placement of the child, unless otherwise app"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low",
+        "source_sections": "13. Adoption Leave"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q010",
+        "question": "How many paid bereavement leave days are employees entitled to, and which family members are generally covered?",
+        "expected_answer": "Up to 5 paid working days. Immediate family generally includes spouse or partner, parent, child, sibling, grandparent, and parent-in-law.",
+        "generated_answer": "Employees are entitled to up to 5 paid working days of bereavement leave following the death of an immediate family member. Immediate family generally includes: (information incomplete in the provided context).",
+        "retrieved_chunks": [
+          "\n\n---\n\n# 14. Bereavement Leave\n\nEmployees may receive up to **5 paid working days** following the death of an immediate family member.\n\nImmediate family generally includes:\n\n-",
+          "ect to statutory eligibility |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | A",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subj"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "14. Bereavement Leave"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q011",
+        "question": "Summarize all leave entitlements at Mindgraph AI in one list, including annual, sick, casual, maternity, paternity, adoption, and bereavement leave.",
+        "expected_answer": "Annual/Paid Leave: 24 days/year. Sick Leave: 12 days/year. Casual/Personal Leave: 6 days/year. Maternity Leave: up to 26 weeks (subject to statutory eligibility). Paternity/Partner Leave: 10 working days. Adoption Leave: 12 weeks. Bereavement Leave: up to 5 working days.",
+        "generated_answer": "- Annual Leave (as per company holiday calendar)  \n- Sick Leave  \n- Casual Leave  \n- Maternity Leave: Up to 26 weeks (including statutory maternity benefit)  \n- Paternity Leave  \n- Adoption Leave  \n- Bereavement Leave",
+        "retrieved_chunks": [
+          "ectations, leave benefits, compensation practices, reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building ",
+          " Benefit Act, as amended, Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI provides **up to 26 weeks of",
+          "raph AI may publish an annual company holiday calendar.\n\n---\n\n# 11. Maternity Leave\n\nMindgraph AI supports employees during pregnancy, childbirth, and the transition to parent"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "TABLE_LOOKUP / SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "Sections 7–14 (individual); Appendix C — Leave Summary (consolidated table)"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q012",
+        "question": "Within how many business days will approved expenses normally be reimbursed?",
+        "expected_answer": "Normally within 10 business days after final approval, subject to payroll/banking processing timelines.",
+        "generated_answer": "Approved expenses will normally be reimbursed within 10 business days after final approval.",
+        "retrieved_chunks": [
+          "s will normally be reimbursed within **10 business days** after final approval, subject to payroll/banking processing timelines.\n\n## 18.5 Travel Expenses\n\nReasonable travel ex",
+          "uire prior approval.\n\nEmployees should not assume that an expense will be reimbursed merely because it was incurred for work.\n\n## 18.4 Reimbursement Timeline\n\nApproved expense",
+          "ss expenses\n\n## 18.1 General Requirements\n\nExpenses must be:\n\n1. Business-related\n2. Reasonable\n3. Necessary\n4. Properly documented\n5. Submitted within the applicable reimburs"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low",
+        "source_sections": "18.4 Reimbursement Timeline"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q013",
+        "question": "List three types of expenses that are generally NOT reimbursable.",
+        "expected_answer": "Any three of: personal entertainment; alcohol (unless specifically approved for a legitimate business event); fines or penalties; personal shopping; unapproved upgrades; personal travel extensions; expenses for family members unless expressly approved.",
+        "generated_answer": "1. Personal entertainment  \n2. Alcohol unless specifically approved for a legitimate business event and permitted by company policy/law  \n3. Fss expenses",
+        "retrieved_chunks": [
+          "lowing are generally not reimbursable:\n\n- Personal entertainment\n- Alcohol unless specifically approved for a legitimate business event and permitted by company policy/law\n- F",
+          "ss expenses\n\n## 18.1 General Requirements\n\nExpenses must be:\n\n1. Business-related\n2. Reasonable\n3. Necessary\n4. Properly documented\n5. Submitted within the applicable reimburs",
+          "meals\n- Local transportation\n- Accommodation\n- Business software\n- Internet or communication expenses where specifically approved\n- Office supplies\n- Other pre-approved busine"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "18.6 Personal Expenses"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q014",
+        "question": "What approval is recommended for a recurring SaaS subscription versus a routine local business expense?",
+        "expected_answer": "Routine local business expense: Manager. Recurring SaaS subscription: Manager + Finance.",
+        "generated_answer": "A recurring SaaS subscription requires approval from both Manager and Finance, whereas a routine local business expense does not specify this requirement.",
+        "retrieved_chunks": [
+          "| Recurring SaaS subscription | Manager + Finance |\n\nThe company may establish specific monetary thresholds separately.\n\n---\n\n# Appendix C — Leave Summary\n\n| Leave Type | Comp",
+          "ss expenses\n\n## 18.1 General Requirements\n\nExpenses must be:\n\n1. Business-related\n2. Reasonable\n3. Necessary\n4. Properly documented\n5. Submitted within the applicable reimburs",
+          "meals\n- Local transportation\n- Accommodation\n- Business software\n- Internet or communication expenses where specifically approved\n- Office supplies\n- Other pre-approved busine"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "TABLE_LOOKUP",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "Appendix B — Recommended Expense Approval Matrix"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q015",
+        "question": "According to the AI and Data Usage Policy, what must employees NOT do with confidential or customer information?",
+        "expected_answer": "Employees must not enter confidential, personal, customer, regulated, or proprietary information into public AI systems unless the system has been approved for that type of data.",
+        "generated_answer": "Employees must NOT disclose confidential company information or publish customer information without authorization.",
+        "retrieved_chunks": [
+          "ustomer, regulated, or proprietary information into public AI systems unless the system has been approved for that type of data.\n\nEmployees should:\n\n- Use approved AI tools fo",
+          "loyees should not:\n\n- Disclose confidential company information\n- Publish customer information without authorization\n- Misrepresent personal opinions as official company state",
+          "rade secrets\n\nEmployees must protect confidential information during and after employment as required by their agreements and applicable law.\n\n---\n\n# 27. AI and Data Usage Pol"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "27. AI and Data Usage Policy"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q016",
+        "question": "Does Section 20 (Software and SaaS Expenses) say anything relevant to the AI usage restrictions described in Section 27?",
+        "expected_answer": "Yes — Section 20 states employees should not upload confidential information to unapproved third-party AI or SaaS platforms, which reinforces the Section 27 rule against entering confidential/customer data into unapproved public AI systems.",
+        "generated_answer": "No, Section 20 (Software and SaaS Expenses) does not say anything relevant to the AI usage restrictions described in Section 27.",
+        "retrieved_chunks": [
+          "onable operational restrictions, except where applicable law provides otherwise.\n\n---\n\n# 18. Employee Expenses and Reimbursements\n\nMindgraph AI will reimburse reasonable and n",
+          "ation software\n\nEmployees should not purchase expensive or recurring software subscriptions without authorization.\n\nBecause Mindgraph AI handles potentially sensitive company ",
+          "theft, or suspected compromise of company equipment should be reported promptly.\n\n---\n\n# 20. Software and SaaS Expenses\n\nEmployees may request company-funded software and serv"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "20. Software and SaaS Expenses; 27. AI and Data Usage Policy"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q017",
+        "question": "What law specifically governs sexual harassment complaints for employees in India, according to this policy?",
+        "expected_answer": "The Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act), where applicable.",
+        "generated_answer": "The Prevention of Sexual Harassment of Women at Work specifically governs sexual harassment complaints for employees in India, according to this policy.",
+        "retrieved_chunks": [
+          "or employees in India, complaints involving sexual harassment will be handled in accordance with applicable law, including the Prevention of Sexual Harassment of Women at Work",
+          "Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will prevail. Contractual terms will apply where legally enforceable and more speci",
+          "ed to employees.\n\n---\n\n# 43. Precedence of Law and Employment Agreements\n\nThis policy is intended to establish general company standards.\n\nIf there is a conflict between:\n\n1. "
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "25. Anti-Harassment and Anti-Discrimination"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q018",
+        "question": "What is the standard full-time working schedule described in the policy?",
+        "expected_answer": "Monday to Friday, 40 hours per week, subject to role, team requirements, applicable law, and employment agreement.",
+        "generated_answer": "The standard full-time working schedule is Monday to Friday, 40 hours per week, subject to the employee's role, team requirements, applicable law, and employment agreement.",
+        "retrieved_chunks": [
+          " specify their applicable employment terms.\n\n---\n\n# 4. Working Hours and Attendance\n\n## 4.1 Standard Working Hours\n\nThe standard full-time working schedule is generally:\n\n**Mo",
+          "any Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subj",
+          "nday to Friday, 40 hours per week**, subject to the employee's role, team requirements, applicable law, and employment agreement.\n\nMindgraph AI may operate with flexible worki"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "4.1 Standard Working Hours"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q019",
+        "question": "Under this policy, is remote work considered an exemption from normal performance and availability expectations?",
+        "expected_answer": "No — remote work is a working arrangement, not an exemption from normal performance or availability expectations.",
+        "generated_answer": "No, remote work is not considered an exemption from normal performance and availability expectations.",
+        "retrieved_chunks": [
+          "rofessional working environment and adequate internet, communication, and work equipment.\n\nRemote work is a working arrangement, not an exemption from normal performance or av",
+          "bilities\n- Team requirements\n- Security considerations\n- Customer requirements\n- Employee performance\n- Applicable law\n\nEmployees working remotely are expected to maintain a p",
+          "ecords\n- Remain reasonably reachable during agreed working hours\n\n---\n\n# 5. Remote and Hybrid Work\n\nMindgraph AI may permit remote or hybrid work depending on:\n\n- Job responsi"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "5. Remote and Hybrid Work"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q020",
+        "question": "What happens if there is a conflict between applicable law, a signed employment agreement, and this HR Policy?",
+        "expected_answer": "Applicable law will prevail; contractual terms apply where legally enforceable and more specific than this general policy; where a mandatory legal requirement provides greater employee protection, Mindgraph AI will comply with that requirement.",
+        "generated_answer": "If there is a conflict between applicable law, a signed employment agreement, and this HR Policy, the applicable law will prevail. Contractual terms will apply where legally enforceable and more specific to employees.",
+        "retrieved_chunks": [
+          "Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will prevail. Contractual terms will apply where legally enforceable and more speci",
+          "ed to employees.\n\n---\n\n# 43. Precedence of Law and Employment Agreements\n\nThis policy is intended to establish general company standards.\n\nIf there is a conflict between:\n\n1. ",
+          "avorable employee benefit or protection than this policy, the law will prevail.\n\n---\n\n## 1. Purpose\n\nThis HR Policy establishes the general employment standards, workplace exp"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "43. Precedence of Law and Employment Agreements"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q021",
+        "question": "How many days notice must employees give before booking non-refundable travel based on an unapproved leave request?",
+        "expected_answer": "Trick question / not stated. The policy says employees should not book non-refundable travel based on an unapproved leave request unless they accept the risk it may not be approved — it does not specify a notice period for this specific scenario.",
+        "generated_answer": "The information does not specify a required number of days' notice before booking non-refundable travel based on an unapproved leave request. However, it states that employees should not book non-refundable travel based on an unapproved leave request unless they accept the risk that the request may not be approved.",
+        "retrieved_chunks": [
+          "nd to leave requests promptly.\n\nEmployees should not book non-refundable travel based on an unapproved leave request unless they accept the risk that the request may not be ap",
+          "leave longer than 3 working days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on business requirements, but managers should make rea",
+          "ing year.\n\n### Leave Approval\n\nPlanned annual leave should normally be requested at least:\n\n- **7 days in advance** for leave of 1–3 working days\n- **14 days in advance** for "
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT (negative/no-answer case)",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "16. Leave Request Process"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q022",
+        "question": "What is Mindgraph AI's official termination notice period for employees (e.g., 30 days, 60 days)?",
+        "expected_answer": "Not specified in this policy. The policy states employees should provide written notice \"in accordance with their employment agreement\" (Section 39) but does not itself define a specific number of days — this is a case where the document does not contain the answer.",
+        "generated_answer": "The provided information does not specify Mindgraph AI's official termination notice period for employees.",
+        "retrieved_chunks": [
+          "ectations, leave benefits, compensation practices, reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building ",
+          "\n\nMindgraph AI should maintain the following documents separately from this policy:\n\n- Employment Agreement\n- Offer Letter\n- Employee Handbook / HR Policy\n- Confidentiality an",
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective Date:** 5 September 2026  \n**Version:** 1.0  \n**A"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT (negative/no-answer case)",
+        "chunk_sensitivity": "Low",
+        "source_sections": "39. Resignation and Notice Period (does not contain a specific figure)"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q023",
+        "question": "What are the four employment categories other than full-time employees mentioned in the policy, and does the policy guarantee identical benefits across all categories?",
+        "expected_answer": "Part-time employees, fixed-term employees, interns or trainees, and contractors or consultants. No — benefits and statutory entitlements may differ according to employment classification and applicable law.",
+        "generated_answer": "The four employment categories other than full-time employees mentioned in the policy are part-time employees, fixed-term employees, interns or trainees, and contractors. The policy does not guarantee identical benefits across all categories; if there is a conflict between the policy and a law that provides a more favorable employee benefit or protection, the law will prevail.",
+        "retrieved_chunks": [
+          "\n\n---\n\n# 3. Employment Categories\n\nEmployees may be classified as:\n\n- Full-time employees\n- Part-time employees\n- Fixed-term employees\n- Interns or trainees\n- Contractors or c",
+          " specify their applicable employment terms.\n\n---\n\n# 4. Working Hours and Attendance\n\n## 4.1 Standard Working Hours\n\nThe standard full-time working schedule is generally:\n\n**Mo",
+          "avorable employee benefit or protection than this policy, the law will prevail.\n\n---\n\n## 1. Purpose\n\nThis HR Policy establishes the general employment standards, workplace exp"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "3. Employment Categories"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q024",
+        "question": "According to the Code of Conduct, name three prohibited employee behaviors.",
+        "expected_answer": "Any three of: harass or discriminate against colleagues; engage in workplace violence or threats; falsify company records; misuse company funds; steal company property; deliberately compromise company systems; misrepresent information to customers; use company resources for unlawful purposes; retaliate against employees who raise legitimate concerns.",
+        "generated_answer": "1. Working for a direct competitor  \n2. Using company resources for outside commercial work  \n3. Hiring or supervising close relatives without disclosure",
+        "retrieved_chunks": [
+          ":\n\n- Working for a direct competitor\n- Using company resources for outside commercial work\n- Hiring or supervising close relatives without disclosure\n- Accepting inappropriate",
+          "epresent information to customers\n- Use company resources for unlawful purposes\n- Retaliate against employees who raise legitimate concerns\n\nEmployees are expected to act in t",
+          "loyees should not:\n\n- Disclose confidential company information\n- Publish customer information without authorization\n- Misrepresent personal opinions as official company state"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "24. Code of Conduct"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q025",
+        "question": "What equipment might Mindgraph AI provide to employees, and who owns it?",
+        "expected_answer": "Laptop/computer, monitor, keyboard/mouse, headset, mobile device, security hardware, and other necessary equipment. Company equipment remains company property unless expressly transferred to the employee.",
+        "generated_answer": "Mindgraph AI might provide employees with a laptop/computer, monitor, keyboard/mouse, headset, mobile device, security hardware, and other equipment necessary for their role. This equipment is owned by Mindgraph AI.",
+        "retrieved_chunks": [
+          "\nMindgraph AI may provide employees with:\n\n- Laptop/computer\n- Monitor\n- Keyboard/mouse\n- Headset\n- Mobile device\n- Security hardware\n- Other equipment necessary for their rol",
+          "ectations, leave benefits, compensation practices, reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building ",
+          "ation software\n\nEmployees should not purchase expensive or recurring software subscriptions without authorization.\n\nBecause Mindgraph AI handles potentially sensitive company "
+        ],
+        "verdict": "PASS",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "19. Company Equipment"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q026",
+        "question": "Compare the entitlement periods for maternity leave, paternity/ partner leave, and adoption leave, and note which one carries an explicit usage-timing deadline.",
+        "expected_answer": "Maternity leave: up to 26 weeks. Paternity/partner leave: 10 working days, generally to be taken within 90 days of the birth/ placement. Adoption leave: 12 weeks. Only paternity/partner leave has an explicit usage-timing deadline (90 days) stated in the policy.",
+        "generated_answer": "- Maternity leave entitlement period is not specified in the provided information.  \n- Paternity/Partner leave entitlement is 10 working days.  \n- Adoption leave entitlement is 12 weeks.  \n\nThe provided information does not specify any explicit usage-timing deadline for paternity/partner leave or adoption leave. No explicit usage-timing deadline is mentioned for maternity leave either.",
+        "retrieved_chunks": [
+          "ect to statutory eligibility |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | A",
+          "antaged solely because they took legally protected maternity leave.\n\n---\n\n# 12. Paternity / Partner Leave\n\nEligible employees may receive **10 working days of paid paternity/p",
+          "roved.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 13. Adoption Leave\n\nEmployees adopting a child may receive **12 week"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "11. Maternity Leave; 12. Paternity/Partner Leave; 13. Adoption Leave"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q027",
+        "question": "What must employees do before purchasing an expensive or recurring software subscription, and where else in the document is a related approval rule given?",
+        "expected_answer": "Employees should not purchase expensive or recurring software subscriptions without authorization (Section 20). A related rule appears in Appendix B, which recommends \"Manager + Finance\" approval for software subscriptions and \"Manager + Finance\" for recurring SaaS subscriptions specifically.",
+        "generated_answer": "Employees must obtain prior authorization before purchasing an expensive or recurring software subscription. A related approval rule is also given in section 20, which states that employees may request company-funded software and services, implying the need for approval.",
+        "retrieved_chunks": [
+          "ation software\n\nEmployees should not purchase expensive or recurring software subscriptions without authorization.\n\nBecause Mindgraph AI handles potentially sensitive company ",
+          "uire prior approval.\n\nEmployees should not assume that an expense will be reimbursed merely because it was incurred for work.\n\n## 18.4 Reimbursement Timeline\n\nApproved expense",
+          "theft, or suspected compromise of company equipment should be reported promptly.\n\n---\n\n# 20. Software and SaaS Expenses\n\nEmployees may request company-funded software and serv"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "20. Software and SaaS Expenses; Appendix B"
+      },
+      {
+        "chunk_size": 175,
+        "id": "Q028",
+        "question": "What is the effective date and version number of this HR Policy?",
+        "expected_answer": "Effective Date: 5 September 2026. Version: 1.0.",
+        "generated_answer": "The effective date of this HR Policy is 5 September 2026, and the version number is 1.0.",
+        "retrieved_chunks": [
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective Date:** 5 September 2026  \n**Version:** 1.0  \n**A",
+          "_______________\n\n**HR / Authorized Representative:** ____________________\n\n**Date:** ____________________________________________\n\n---\n\n# Appendix A — Recommended HR Documents",
+          "Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will prevail. Contractual terms will apply where legally enforceable and more speci"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "Document header (top of policy)"
+      }
+    ],
+    "250": [
+      {
+        "chunk_size": 250,
+        "id": "Q001",
+        "question": "How many paid annual leave days do full-time employees receive per year?",
+        "expected_answer": "24 paid days of annual leave per calendar year.",
+        "generated_answer": "Full-time employees receive 24 paid days of annual leave per calendar year.",
+        "retrieved_chunks": [
+          "\n# Appendix C — Leave Summary\n\n| Leave Type | Company Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          "cable local employment laws and the employee's employment agreement.\n\n## 7.1 Annual / Paid Leave\n\nFull-time employees receive **24 paid days of annual leave per calendar year**.\n\nAnnual leave is intended for:\n\n- Vacation\n- Rest and personal time\n- Tr",
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | As applicable to employee location |\n| Unpaid Leave | Subject to approval and applicable law |\n\n> **L"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity",
+        "source_sections": "7.1 Annual / Paid Leave; Appendix C"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q002",
+        "question": "At what rate does annual leave accrue?",
+        "expected_answer": "2 days per completed month of employment.",
+        "generated_answer": "Annual leave accrues at 2 days per completed month of employment.",
+        "retrieved_chunks": [
+          "avel\n- Personal commitments\n- Other planned absences\n\n### Leave Accrual\n\nUnless otherwise specified in the employment agreement, annual leave accrues at **2 days per completed month of employment**.\n\nEmployees joining or leaving during a calendar yea",
+          "\n# Appendix C — Leave Summary\n\n| Leave Type | Company Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | As applicable to employee location |\n| Unpaid Leave | Subject to approval and applicable law |\n\n> **L"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity, but this fact sits in a subsection nested under 7.1",
+        "source_sections": "7.1 Annual / Paid Leave — \"Leave Accrual\""
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q003",
+        "question": "How many unused annual leave days can be carried into the next calendar year?",
+        "expected_answer": "Up to 10 unused annual leave days.",
+        "generated_answer": "Up to 10 unused annual leave days may be carried into the following calendar year unless applicable law requires a higher entitlement.",
+        "retrieved_chunks": [
+          "r will generally receive a prorated entitlement, subject to applicable law.\n\n### Carry Forward\n\nUp to **10 unused annual leave days** may be carried into the following calendar year unless applicable law requires a higher entitlement.\n\nCarried-forwar",
+          "\n# Appendix C — Leave Summary\n\n| Leave Type | Company Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          "avel\n- Personal commitments\n- Other planned absences\n\n### Leave Accrual\n\nUnless otherwise specified in the employment agreement, annual leave accrues at **2 days per completed month of employment**.\n\nEmployees joining or leaving during a calendar yea"
+        ],
+        "verdict": "PASS",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low sensitivity at the sentence level, but if chunked too aggressively by fixed token windows (not by heading), this line could be split from the \"Annual Leave\" heading, causing the model to misattribute it to a different leave type. Good test for heading-aware vs. naive chunking.",
+        "source_sections": "7.1 Annual / Paid Leave — \"Carry Forward\""
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q004",
+        "question": "How much advance notice is required to request annual leave of 1 to 3 working days versus more than 3 working days?",
+        "expected_answer": "7 days in advance for leave of 1–3 working days; 14 days in advance for leave longer than 3 working days.",
+        "generated_answer": "Annual leave of 1 to 3 working days should be requested at least 7 days in advance. Annual leave longer than 3 working days should be requested at least 14 days in advance.",
+        "retrieved_chunks": [
+          "d leave should generally be used within the following year.\n\n### Leave Approval\n\nPlanned annual leave should normally be requested at least:\n\n- **7 days in advance** for leave of 1–3 working days\n- **14 days in advance** for leave longer than 3 worki",
+          "ng days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on business requirements, but managers should make reasonable efforts to accommodate employee leave.\n\n---\n\n# 8. Sick Leave\n\nEmployees are entitled to **12",
+          "erm emergencies\n- Other reasonable personal needs\n\nWhere practical, employees should request this leave in advance.\n\n---\n\n# 10. Public Holidays\n\nEmployees will receive holidays applicable to their employment location in accordance with:\n\n- Applicable"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium sensitivity",
+        "source_sections": "7.1 Annual / Paid Leave — \"Leave Approval\""
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q005",
+        "question": "How many paid sick days are employees entitled to per calendar year, and can unused sick leave be cashed out?",
+        "expected_answer": "12 paid sick days per calendar year. Unused sick leave is generally not convertible into cash unless required by applicable law.",
+        "generated_answer": "Employees are entitled to 12 paid sick days per calendar year. There is no information provided about cashing out unused sick leave.",
+        "retrieved_chunks": [
+          " paid sick days per calendar year**, subject to applicable law.\n\nSick leave may be used when an employee is unable to work due to illness, injury, medical treatment, or other medically necessary circumstances.\n\nEmployees should notify their manager a",
+          "\n# Appendix C — Leave Summary\n\n| Leave Type | Company Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          "ng days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on business requirements, but managers should make reasonable efforts to accommodate employee leave.\n\n---\n\n# 8. Sick Leave\n\nEmployees are entitled to **12"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "8. Sick Leave"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q006",
+        "question": "How many paid casual/personal leave days can an employee take per year, and give two examples of when it can be used.",
+        "expected_answer": "6 paid personal/casual leave days per calendar year. Examples include urgent family matters and personal appointments (also: unexpected responsibilities, short-term emergencies).",
+        "generated_answer": "An employee can take up to 6 paid casual/personal leave days per calendar year. Two examples of when it can be used are urgent family matters and personal appointments.",
+        "retrieved_chunks": [
+          " 9. Casual / Personal Leave\n\nEmployees may take up to **6 paid personal/casual leave days per calendar year** for short-term personal matters.\n\nExamples include:\n\n- Urgent family matters\n- Personal appointments\n- Unexpected responsibilities\n- Short-t",
+          "\n# Appendix C — Leave Summary\n\n| Leave Type | Company Policy |\n|---|---:|\n| Annual / Paid Leave | 24 days/year |\n| Sick Leave | 12 days/year |\n| Casual / Personal Leave | 6 days/year |\n| Maternity Leave | Up to 26 weeks, subject to statutory eligibil",
+          "avel\n- Personal commitments\n- Other planned absences\n\n### Leave Accrual\n\nUnless otherwise specified in the employment agreement, annual leave accrues at **2 days per completed month of employment**.\n\nEmployees joining or leaving during a calendar yea"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "9. Casual / Personal Leave"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q007",
+        "question": "How many weeks of maternity leave does Mindgraph AI provide as company policy, and does statutory law override this?",
+        "expected_answer": "Up to 26 weeks of maternity leave for eligible employees, subject to statutory eligibility and legal requirements. Where applicable law provides a greater benefit, the greater statutory entitlement applies.",
+        "generated_answer": "Mindgraph AI provides up to 26 weeks of maternity leave for eligible employees as company policy, subject to statutory eligibility and legal requirements. Therefore, statutory law can override this company policy.",
+        "retrieved_chunks": [
+          " Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI provides **up to 26 weeks of maternity leave for eligible employees**, subject to statutory eligibility and legal requirements.\n",
+          " national law\n- State/provincial law\n- Company holiday calendars\n- Customer or operational requirements where relevant\n\nMindgraph AI may publish an annual company holiday calendar.\n\n---\n\n# 11. Maternity Leave\n\nMindgraph AI supports employees during p",
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective Date:** 5 September 2026  \n**Version:** 1.0  \n**Applies To:** All employees of Mindgraph AI, unless a written employment agr"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "11.1 Maternity Leave Entitlement"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q008",
+        "question": "How many days of paid paternity/partner leave are eligible employees entitled to, and within how many days of the birth or adoption must it generally be taken?",
+        "expected_answer": "10 working days of paid paternity/partner leave, generally to be taken within 90 days of the birth or placement of the child.",
+        "generated_answer": "Eligible employees are entitled to 10 working days of paid paternity/partner leave, which must generally be taken following the birth or adoption.",
+        "retrieved_chunks": [
+          "eave should not be disadvantaged solely because they took legally protected maternity leave.\n\n---\n\n# 12. Paternity / Partner Leave\n\nEligible employees may receive **10 working days of paid paternity/partner leave** following the birth or adoption of ",
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | As applicable to employee location |\n| Unpaid Leave | Subject to approval and applicable law |\n\n> **L",
+          "\n\nEmployees adopting a child may receive **12 weeks of paid adoption leave**, subject to applicable law and eligibility requirements.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 14. Bereavement "
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "12. Paternity / Partner Leave"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q009",
+        "question": "How many weeks of paid adoption leave are employees entitled to?",
+        "expected_answer": "12 weeks of paid adoption leave, subject to applicable law and eligibility requirements.",
+        "generated_answer": "Employees are entitled to 12 weeks of paid adoption leave.",
+        "retrieved_chunks": [
+          "\n\nEmployees adopting a child may receive **12 weeks of paid adoption leave**, subject to applicable law and eligibility requirements.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 14. Bereavement ",
+          "a child.\n\nThe leave should generally be taken within **90 days** of the birth or placement of the child, unless otherwise approved.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 13. Adoption Leave",
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | As applicable to employee location |\n| Unpaid Leave | Subject to approval and applicable law |\n\n> **L"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low",
+        "source_sections": "13. Adoption Leave"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q010",
+        "question": "How many paid bereavement leave days are employees entitled to, and which family members are generally covered?",
+        "expected_answer": "Up to 5 paid working days. Immediate family generally includes spouse or partner, parent, child, sibling, grandparent, and parent-in-law.",
+        "generated_answer": "Employees are entitled to up to 5 paid working days of bereavement leave. The immediate family members generally covered include spouse or partner, parent, child, sibling, grandparent, and parent-in-law.",
+        "retrieved_chunks": [
+          "Leave\n\nEmployees may receive up to **5 paid working days** following the death of an immediate family member.\n\nImmediate family generally includes:\n\n- Spouse or partner\n- Parent\n- Child\n- Sibling\n- Grandparent\n- Parent-in-law\n\nAdditional unpaid or pa",
+          "\n\nEmployees adopting a child may receive **12 weeks of paid adoption leave**, subject to applicable law and eligibility requirements.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 14. Bereavement ",
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | As applicable to employee location |\n| Unpaid Leave | Subject to approval and applicable law |\n\n> **L"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "14. Bereavement Leave"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q011",
+        "question": "Summarize all leave entitlements at Mindgraph AI in one list, including annual, sick, casual, maternity, paternity, adoption, and bereavement leave.",
+        "expected_answer": "Annual/Paid Leave: 24 days/year. Sick Leave: 12 days/year. Casual/Personal Leave: 6 days/year. Maternity Leave: up to 26 weeks (subject to statutory eligibility). Paternity/Partner Leave: 10 working days. Adoption Leave: 12 weeks. Bereavement Leave: up to 5 working days.",
+        "generated_answer": "- Maternity Leave: Up to 26 weeks for eligible employees, subject to statutory eligibility and legal requirements.  \n- Other leave types (annual, sick, casual, paternity, adoption, bereavement): Not specified in the provided information.  \n- Leave entitlements are subject to national law, state/provincial law, company holiday calendars, and customer or operational requirements where relevant.  \n- Mindgraph AI may publish an annual company holiday calendar.",
+        "retrieved_chunks": [
+          " Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI provides **up to 26 weeks of maternity leave for eligible employees**, subject to statutory eligibility and legal requirements.\n",
+          " national law\n- State/provincial law\n- Company holiday calendars\n- Customer or operational requirements where relevant\n\nMindgraph AI may publish an annual company holiday calendar.\n\n---\n\n# 11. Maternity Leave\n\nMindgraph AI supports employees during p",
+          "in this HR Policy.\n\n---\n\n# 7. Leave Policy\n\nMindgraph AI believes employees should take adequate time away from work to rest, handle personal responsibilities, recover from illness, and spend time with family.\n\nLeave entitlements are subject to appli"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "TABLE_LOOKUP / SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "Sections 7–14 (individual); Appendix C — Leave Summary (consolidated table)"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q012",
+        "question": "Within how many business days will approved expenses normally be reimbursed?",
+        "expected_answer": "Normally within 10 business days after final approval, subject to payroll/banking processing timelines.",
+        "generated_answer": "Approved expenses will normally be reimbursed within 10 business days after final approval.",
+        "retrieved_chunks": [
+          "eimbursed merely because it was incurred for work.\n\n## 18.4 Reimbursement Timeline\n\nApproved expenses will normally be reimbursed within **10 business days** after final approval, subject to payroll/banking processing timelines.\n\n## 18.5 Travel Expen",
+          "ecessary\n4. Properly documented\n5. Submitted within the applicable reimbursement period\n\nEmployees should use company payment methods where available.\n\n## 18.2 Receipts\n\nEmployees should retain itemized receipts for reimbursable expenses.\n\nWhere a re",
+          "ion\n- Accommodation\n- Business software\n- Internet or communication expenses where specifically approved\n- Office supplies\n- Other pre-approved business expenses\n\n## 18.1 General Requirements\n\nExpenses must be:\n\n1. Business-related\n2. Reasonable\n3. N"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "NUMERIC",
+        "chunk_sensitivity": "Low",
+        "source_sections": "18.4 Reimbursement Timeline"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q013",
+        "question": "List three types of expenses that are generally NOT reimbursable.",
+        "expected_answer": "Any three of: personal entertainment; alcohol (unless specifically approved for a legitimate business event); fines or penalties; personal shopping; unapproved upgrades; personal travel extensions; expenses for family members unless expressly approved.",
+        "generated_answer": "1. Personal entertainment  \n2. Alcohol unless specifically approved for a legitimate business purpose  \n3. Accommodation",
+        "retrieved_chunks": [
+          "tation fees where pre-approved\n\nPremium travel generally requires prior written approval.\n\n## 18.6 Personal Expenses\n\nThe following are generally not reimbursable:\n\n- Personal entertainment\n- Alcohol unless specifically approved for a legitimate busi",
+          "ion\n- Accommodation\n- Business software\n- Internet or communication expenses where specifically approved\n- Office supplies\n- Other pre-approved business expenses\n\n## 18.1 General Requirements\n\nExpenses must be:\n\n1. Business-related\n2. Reasonable\n3. N",
+          "ecessary\n4. Properly documented\n5. Submitted within the applicable reimbursement period\n\nEmployees should use company payment methods where available.\n\n## 18.2 Receipts\n\nEmployees should retain itemized receipts for reimbursable expenses.\n\nWhere a re"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "18.6 Personal Expenses"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q014",
+        "question": "What approval is recommended for a recurring SaaS subscription versus a routine local business expense?",
+        "expected_answer": "Routine local business expense: Manager. Recurring SaaS subscription: Manager + Finance.",
+        "generated_answer": "A recurring SaaS subscription requires approval from Manager + Finance, whereas a routine local business expense requires approval from the Manager only.",
+        "retrieved_chunks": [
+          "Approval |\n|---|---|\n| Routine local business expense | Manager |\n| Business meal | Manager |\n| Software subscription | Manager + Finance |\n| Conference / training | Manager + Finance |\n| Domestic business travel | Manager |\n| International business ",
+          "travel | Manager + Management |\n| Equipment purchase | Manager + IT/Finance |\n| High-value purchase | Management + Finance |\n| Recurring SaaS subscription | Manager + Finance |\n\nThe company may establish specific monetary thresholds separately.\n\n---\n",
+          "ion\n- Accommodation\n- Business software\n- Internet or communication expenses where specifically approved\n- Office supplies\n- Other pre-approved business expenses\n\n## 18.1 General Requirements\n\nExpenses must be:\n\n1. Business-related\n2. Reasonable\n3. N"
+        ],
+        "verdict": "PASS",
+        "answer_type": "TABLE_LOOKUP",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "Appendix B — Recommended Expense Approval Matrix"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q015",
+        "question": "According to the AI and Data Usage Policy, what must employees NOT do with confidential or customer information?",
+        "expected_answer": "Employees must not enter confidential, personal, customer, regulated, or proprietary information into public AI systems unless the system has been approved for that type of data.",
+        "generated_answer": "According to the AI and Data Usage Policy, employees must NOT disclose confidential company information or publish customer information without authorization.",
+        "retrieved_chunks": [
+          "n\n- Security information\n- Employee information\n- Intellectual property\n- Trade secrets\n\nEmployees must protect confidential information during and after employment as required by their agreements and applicable law.\n\n---\n\n# 27. AI and Data Usage Pol",
+          " use social media in their personal capacity.\n\nEmployees should not:\n\n- Disclose confidential company information\n- Publish customer information without authorization\n- Misrepresent personal opinions as official company statements\n- Share unreleased ",
+          "), where applicable.\n\n---\n\n# 26. Confidentiality\n\nEmployees may have access to confidential information including:\n\n- Source code\n- Product roadmaps\n- AI models and prompts\n- Customer information\n- Business strategies\n- Pricing\n- Financial informatio"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "27. AI and Data Usage Policy"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q016",
+        "question": "Does Section 20 (Software and SaaS Expenses) say anything relevant to the AI usage restrictions described in Section 27?",
+        "expected_answer": "Yes — Section 20 states employees should not upload confidential information to unapproved third-party AI or SaaS platforms, which reinforces the Section 27 rule against entering confidential/customer data into unapproved public AI systems.",
+        "generated_answer": "No, Section 20 (Software and SaaS Expenses) does not say anything relevant to the AI usage restrictions described in Section 27.",
+        "retrieved_chunks": [
+          "es are responsible for taking reasonable care of company equipment.\n\nLoss, theft, or suspected compromise of company equipment should be reported promptly.\n\n---\n\n# 20. Software and SaaS Expenses\n\nEmployees may request company-funded software and serv",
+          "ents\n\nMindgraph AI will reimburse reasonable and necessary business expenses incurred by employees in performing authorized company work.\n\nExamples include:\n\n- Business travel\n- Customer meetings\n- Conferences\n- Work-related meals\n- Local transportat",
+          "ices required for their work.\n\nExamples include:\n\n- Development tools\n- AI tools\n- Cloud services\n- Design software\n- Productivity applications\n- Research databases\n- Collaboration software\n\nEmployees should not purchase expensive or recurring softwa"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "20. Software and SaaS Expenses; 27. AI and Data Usage Policy"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q017",
+        "question": "What law specifically governs sexual harassment complaints for employees in India, according to this policy?",
+        "expected_answer": "The Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act), where applicable.",
+        "generated_answer": "The Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act) specifically governs sexual harassment complaints for employees in India, according to this policy.",
+        "retrieved_chunks": [
+          " or another appropriate company representative.\n\nFor employees in India, complaints involving sexual harassment will be handled in accordance with applicable law, including the Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act",
+          " a conflict between:\n\n1. Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will prevail. Contractual terms will apply where legally enforceable and more specific than this general policy.\n\nWhere a mandatory l",
+          " to maintaining a workplace free from unlawful discrimination and harassment.\n\nEmployment decisions should not unlawfully discriminate on the basis of characteristics protected by applicable law.\n\nHarassment may include:\n\n- Verbal abuse\n- Unwelcome s"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "25. Anti-Harassment and Anti-Discrimination"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q018",
+        "question": "What is the standard full-time working schedule described in the policy?",
+        "expected_answer": "Monday to Friday, 40 hours per week, subject to role, team requirements, applicable law, and employment agreement.",
+        "generated_answer": "The standard full-time working schedule is Monday to Friday, 40 hours per week, subject to the employee's role, team requirements, applicable law, and employment agreement.",
+        "retrieved_chunks": [
+          "loyment classification and applicable law.\n\nThe employee's offer letter or employment agreement will specify their applicable employment terms.\n\n---\n\n# 4. Working Hours and Attendance\n\n## 4.1 Standard Working Hours\n\nThe standard full-time working sch",
+          "edule is generally:\n\n**Monday to Friday, 40 hours per week**, subject to the employee's role, team requirements, applicable law, and employment agreement.\n\nMindgraph AI may operate with flexible working hours where the nature of the role permits.\n\n##",
+          "in this HR Policy.\n\n---\n\n# 7. Leave Policy\n\nMindgraph AI believes employees should take adequate time away from work to rest, handle personal responsibilities, recover from illness, and spend time with family.\n\nLeave entitlements are subject to appli"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "4.1 Standard Working Hours"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q019",
+        "question": "Under this policy, is remote work considered an exemption from normal performance and availability expectations?",
+        "expected_answer": "No — remote work is a working arrangement, not an exemption from normal performance or availability expectations.",
+        "generated_answer": "No, remote work is not considered an exemption from normal performance and availability expectations.",
+        "retrieved_chunks": [
+          "e\n- Applicable law\n\nEmployees working remotely are expected to maintain a professional working environment and adequate internet, communication, and work equipment.\n\nRemote work is a working arrangement, not an exemption from normal performance or av",
+          "y reachable during agreed working hours\n\n---\n\n# 5. Remote and Hybrid Work\n\nMindgraph AI may permit remote or hybrid work depending on:\n\n- Job responsibilities\n- Team requirements\n- Security considerations\n- Customer requirements\n- Employee performanc",
+          " arrangements\n- Temporary schedule changes\n- Remote work where reasonably possible\n- Additional breaks\n- Medical appointments\n\nEmployees should discuss reasonable workplace accommodations with HR or their manager.\n\n## 11.3 Return to Work\n\nMindgraph A"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "5. Remote and Hybrid Work"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q020",
+        "question": "What happens if there is a conflict between applicable law, a signed employment agreement, and this HR Policy?",
+        "expected_answer": "Applicable law will prevail; contractual terms apply where legally enforceable and more specific than this general policy; where a mandatory legal requirement provides greater employee protection, Mindgraph AI will comply with that requirement.",
+        "generated_answer": "If there is a conflict between applicable law, a signed employment agreement, and this HR Policy, the applicable law will prevail. Contractual terms will apply where they are legally enforceable and more specific than this general policy.",
+        "retrieved_chunks": [
+          " a conflict between:\n\n1. Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will prevail. Contractual terms will apply where legally enforceable and more specific than this general policy.\n\nWhere a mandatory l",
+          "al requirements\n- Industry practices\n- Employee feedback\n\nMaterial policy changes will be communicated to employees.\n\n---\n\n# 43. Precedence of Law and Employment Agreements\n\nThis policy is intended to establish general company standards.\n\nIf there is",
+          "eement or applicable law provides otherwise.\n\n> **Important:** This policy is a general company HR framework and should be reviewed and adapted by qualified employment counsel for each country/state in which Mindgraph AI employs people. Where applica"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "43. Precedence of Law and Employment Agreements"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q021",
+        "question": "How many days notice must employees give before booking non-refundable travel based on an unapproved leave request?",
+        "expected_answer": "Trick question / not stated. The policy says employees should not book non-refundable travel based on an unapproved leave request unless they accept the risk it may not be approved — it does not specify a notice period for this specific scenario.",
+        "generated_answer": "Employees must give at least 7 days' notice for leave of 1–3 working days and 14 days' notice for leave longer than 3 working days before booking non-refundable travel based on an unapproved leave request.",
+        "retrieved_chunks": [
+          "te\n\nManagers should respond to leave requests promptly.\n\nEmployees should not book non-refundable travel based on an unapproved leave request unless they accept the risk that the request may not be approved.\n\n---\n\n# 17. Leave During Probation\n\nEmploy",
+          "d leave should generally be used within the following year.\n\n### Leave Approval\n\nPlanned annual leave should normally be requested at least:\n\n- **7 days in advance** for leave of 1–3 working days\n- **14 days in advance** for leave longer than 3 worki",
+          "ng days\n\nManagers may approve shorter-notice requests where reasonable.\n\nLeave approval depends on business requirements, but managers should make reasonable efforts to accommodate employee leave.\n\n---\n\n# 8. Sick Leave\n\nEmployees are entitled to **12"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SINGLE_FACT (negative/no-answer case)",
+        "chunk_sensitivity": "Low-medium",
+        "source_sections": "16. Leave Request Process"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q022",
+        "question": "What is Mindgraph AI's official termination notice period for employees (e.g., 30 days, 60 days)?",
+        "expected_answer": "Not specified in this policy. The policy states employees should provide written notice \"in accordance with their employment agreement\" (Section 39) but does not itself define a specific number of days — this is a case where the document does not contain the answer.",
+        "generated_answer": "The provided information does not specify Mindgraph AI's official termination notice period for employees.",
+        "retrieved_chunks": [
+          " Mindgraph AI will provide the statutory maternity benefit applicable to the employee.\n\nAs a company policy, Mindgraph AI provides **up to 26 weeks of maternity leave for eligible employees**, subject to statutory eligibility and legal requirements.\n",
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective Date:** 5 September 2026  \n**Version:** 1.0  \n**Applies To:** All employees of Mindgraph AI, unless a written employment agr",
+          " reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building a workplace that is:\n\n- Professional, respectful, and inclusive\n- Focused on high-quality work and continuous learning\n- Supp"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT (negative/no-answer case)",
+        "chunk_sensitivity": "Low",
+        "source_sections": "39. Resignation and Notice Period (does not contain a specific figure)"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q023",
+        "question": "What are the four employment categories other than full-time employees mentioned in the policy, and does the policy guarantee identical benefits across all categories?",
+        "expected_answer": "Part-time employees, fixed-term employees, interns or trainees, and contractors or consultants. No — benefits and statutory entitlements may differ according to employment classification and applicable law.",
+        "generated_answer": "The four employment categories other than full-time employees mentioned in the policy are:\n\n- Part-time employees  \n- Fixed-term employees  \n- Interns or trainees  \n- Contractors or consultants  \n\nThe policy does not guarantee identical benefits across all categories; benefits and statutory entitlements may differ according to employment classification and applicable law.",
+        "retrieved_chunks": [
+          "\n\n---\n\n# 3. Employment Categories\n\nEmployees may be classified as:\n\n- Full-time employees\n- Part-time employees\n- Fixed-term employees\n- Interns or trainees\n- Contractors or consultants\n\nBenefits and statutory entitlements may differ according to emp",
+          "loyment classification and applicable law.\n\nThe employee's offer letter or employment agreement will specify their applicable employment terms.\n\n---\n\n# 4. Working Hours and Attendance\n\n## 4.1 Standard Working Hours\n\nThe standard full-time working sch",
+          "ble law provides a more favorable employee benefit or protection than this policy, the law will prevail.\n\n---\n\n## 1. Purpose\n\nThis HR Policy establishes the general employment standards, workplace expectations, leave benefits, compensation practices,"
+        ],
+        "verdict": "PASS",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "3. Employment Categories"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q024",
+        "question": "According to the Code of Conduct, name three prohibited employee behaviors.",
+        "expected_answer": "Any three of: harass or discriminate against colleagues; engage in workplace violence or threats; falsify company records; misuse company funds; steal company property; deliberately compromise company systems; misrepresent information to customers; use company resources for unlawful purposes; retaliate against employees who raise legitimate concerns.",
+        "generated_answer": "Three prohibited employee behaviors according to the Code of Conduct are:\n\n1. Threatening behavior  \n2. Falsifying company records  \n3. Using confidential information for personal gain",
+        "retrieved_chunks": [
+          "exual conduct\n- Threatening behavior\n- Bullying\n- Offensive jokes or comments\n- Unwanted advances\n- Repeated inappropriate conduct\n- Retaliation for reporting concerns\n\nEmployees may report concerns to their manager, HR, designated complaint channel,",
+          "colleagues\n- Engage in workplace violence or threats\n- Falsify company records\n- Misuse company funds\n- Steal company property\n- Deliberately compromise company systems\n- Misrepresent information to customers\n- Use company resources for unlawful purp",
+          "commercial work\n- Hiring or supervising close relatives without disclosure\n- Accepting inappropriate gifts from vendors\n- Using confidential information for personal gain\n\nOutside employment may be permitted where it does not conflict with the employ"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "LIST",
+        "chunk_sensitivity": "Medium-high",
+        "source_sections": "24. Code of Conduct"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q025",
+        "question": "What equipment might Mindgraph AI provide to employees, and who owns it?",
+        "expected_answer": "Laptop/computer, monitor, keyboard/mouse, headset, mobile device, security hardware, and other necessary equipment. Company equipment remains company property unless expressly transferred to the employee.",
+        "generated_answer": "The provided information does not specify what equipment Mindgraph AI might provide to employees or who owns it.",
+        "retrieved_chunks": [
+          " reimbursements, working arrangements, and employee support policies of Mindgraph AI.\n\nMindgraph AI is committed to building a workplace that is:\n\n- Professional, respectful, and inclusive\n- Focused on high-quality work and continuous learning\n- Supp",
+          "icy\n\nBecause Mindgraph AI develops and operates AI products, employees must exercise particular care when using AI systems.\n\nEmployees must not enter confidential, personal, customer, regulated, or proprietary information into public AI systems unles",
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective Date:** 5 September 2026  \n**Version:** 1.0  \n**Applies To:** All employees of Mindgraph AI, unless a written employment agr"
+        ],
+        "verdict": "FAIL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "Medium",
+        "source_sections": "19. Company Equipment"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q026",
+        "question": "Compare the entitlement periods for maternity leave, paternity/ partner leave, and adoption leave, and note which one carries an explicit usage-timing deadline.",
+        "expected_answer": "Maternity leave: up to 26 weeks. Paternity/partner leave: 10 working days, generally to be taken within 90 days of the birth/ placement. Adoption leave: 12 weeks. Only paternity/partner leave has an explicit usage-timing deadline (90 days) stated in the policy.",
+        "generated_answer": "- Maternity Leave: Not specified in the provided information.  \n- Paternity/Partner Leave: 10 working days.  \n- Adoption Leave: 12 weeks.  \n\nThe leave with an explicit usage-timing deadline is paternity/partner leave, which should generally be taken within 90 days of the birth or placement of the child, unless otherwise approved.",
+        "retrieved_chunks": [
+          "ity |\n| Paternity / Partner Leave | 10 working days |\n| Adoption Leave | 12 weeks |\n| Bereavement Leave | Up to 5 working days |\n| Public Holidays | As applicable to employee location |\n| Unpaid Leave | Subject to approval and applicable law |\n\n> **L",
+          "a child.\n\nThe leave should generally be taken within **90 days** of the birth or placement of the child, unless otherwise approved.\n\nWhere applicable law provides a greater entitlement, the statutory entitlement will apply.\n\n---\n\n# 13. Adoption Leave",
+          "eave should not be disadvantaged solely because they took legally protected maternity leave.\n\n---\n\n# 12. Paternity / Partner Leave\n\nEligible employees may receive **10 working days of paid paternity/partner leave** following the birth or adoption of "
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "11. Maternity Leave; 12. Paternity/Partner Leave; 13. Adoption Leave"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q027",
+        "question": "What must employees do before purchasing an expensive or recurring software subscription, and where else in the document is a related approval rule given?",
+        "expected_answer": "Employees should not purchase expensive or recurring software subscriptions without authorization (Section 20). A related rule appears in Appendix B, which recommends \"Manager + Finance\" approval for software subscriptions and \"Manager + Finance\" for recurring SaaS subscriptions specifically.",
+        "generated_answer": "Employees must obtain approval from Manager and Finance before purchasing an expensive or recurring software subscription. A related approval rule is given in the Appendix B — Recommended Expense Approval Matrix under \"Recurring SaaS subscription,\" which requires approval from Manager + Finance.",
+        "retrieved_chunks": [
+          "travel | Manager + Management |\n| Equipment purchase | Manager + IT/Finance |\n| High-value purchase | Management + Finance |\n| Recurring SaaS subscription | Manager + Finance |\n\nThe company may establish specific monetary thresholds separately.\n\n---\n",
+          "on where applicable\n- Grievance / Complaint Procedure\n- Employee Exit Checklist\n- Equipment Issuance and Return Form\n- Contractor Agreement\n- Internship Agreement\n\n---\n\n# Appendix B — Recommended Expense Approval Matrix\n\n| Expense Type | Recommended ",
+          "ices required for their work.\n\nExamples include:\n\n- Development tools\n- AI tools\n- Cloud services\n- Design software\n- Productivity applications\n- Research databases\n- Collaboration software\n\nEmployees should not purchase expensive or recurring softwa"
+        ],
+        "verdict": "PARTIAL",
+        "answer_type": "SYNTHESIS",
+        "chunk_sensitivity": "HIGH",
+        "source_sections": "20. Software and SaaS Expenses; Appendix B"
+      },
+      {
+        "chunk_size": 250,
+        "id": "Q028",
+        "question": "What is the effective date and version number of this HR Policy?",
+        "expected_answer": "Effective Date: 5 September 2026. Version: 1.0.",
+        "generated_answer": "The effective date of this HR Policy is 5 September 2026, and the version number is 1.0.",
+        "retrieved_chunks": [
+          "# Mindgraph AI — Employee HR Policy\n\n**Company:** Mindgraph AI  \n**Policy Owner:** Human Resources / Management  \n**Effective Date:** 5 September 2026  \n**Version:** 1.0  \n**Applies To:** All employees of Mindgraph AI, unless a written employment agr",
+          " a conflict between:\n\n1. Applicable law,\n2. A signed employment agreement, or\n3. This HR Policy,\n\nthe applicable law will prevail. Contractual terms will apply where legally enforceable and more specific than this general policy.\n\nWhere a mandatory l",
+          "al requirements\n- Industry practices\n- Employee feedback\n\nMaterial policy changes will be communicated to employees.\n\n---\n\n# 43. Precedence of Law and Employment Agreements\n\nThis policy is intended to establish general company standards.\n\nIf there is"
+        ],
+        "verdict": "PASS",
+        "answer_type": "SINGLE_FACT",
+        "chunk_sensitivity": "Low",
+        "source_sections": "Document header (top of policy)"
+      }
+    ]
+  }
+}

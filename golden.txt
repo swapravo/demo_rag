@@ -1,0 +1,442 @@
+================================================================================
+GOLDEN DATASET — Mindgraph AI HR Policy RAG Evaluation
+================================================================================
+Source document: Mindgraph AI — Employee HR Policy (v1.0, Effective 5 Sept 2026)
+Purpose: Ground-truth Q&A pairs for testing retrieval/answer quality across
+different chunk sizes in a RAG pipeline.
+
+FIELD GUIDE
+-----------
+id                  : unique identifier
+question            : query to send to the RAG system
+expected_answer     : ground-truth answer (short form)
+source_section(s)   : section number(s)/title(s) in the source doc where the
+                       answer is found — use this to check retrieval, not just
+                       generation
+answer_type         : SINGLE_FACT | NUMERIC | LIST | SYNTHESIS | TABLE_LOOKUP
+chunk_sensitivity   : NOTES on how chunk size affects this question — use this
+                       to interpret failures. Small chunks = tends to help
+                       SINGLE_FACT/NUMERIC; hurts SYNTHESIS/multi-section
+                       questions unless retriever pulls multiple chunks.
+================================================================================
+
+
+--------------------------------------------------------------------------------
+ID: Q001
+--------------------------------------------------------------------------------
+question: How many paid annual leave days do full-time employees receive per
+year?
+expected_answer: 24 paid days of annual leave per calendar year.
+source_section(s): 7.1 Annual / Paid Leave; Appendix C
+answer_type: NUMERIC
+chunk_sensitivity: Low sensitivity — answer is a single sentence, retrievable
+even at very small chunk sizes (e.g., 100–200 tokens). Good baseline/control
+question.
+
+--------------------------------------------------------------------------------
+ID: Q002
+--------------------------------------------------------------------------------
+question: At what rate does annual leave accrue?
+expected_answer: 2 days per completed month of employment.
+source_section(s): 7.1 Annual / Paid Leave — "Leave Accrual"
+answer_type: NUMERIC
+chunk_sensitivity: Low sensitivity, but this fact sits in a subsection nested
+under 7.1 — tests whether small chunks preserve subsection context (i.e.,
+whether the chunk still "knows" this refers to annual leave, not sick leave).
+
+--------------------------------------------------------------------------------
+ID: Q003
+--------------------------------------------------------------------------------
+question: How many unused annual leave days can be carried into the next
+calendar year?
+expected_answer: Up to 10 unused annual leave days.
+source_section(s): 7.1 Annual / Paid Leave — "Carry Forward"
+answer_type: NUMERIC
+chunk_sensitivity: Low sensitivity at the sentence level, but if chunked too
+aggressively by fixed token windows (not by heading), this line could be
+split from the "Annual Leave" heading, causing the model to misattribute it
+to a different leave type. Good test for heading-aware vs. naive chunking.
+
+--------------------------------------------------------------------------------
+ID: Q004
+--------------------------------------------------------------------------------
+question: How much advance notice is required to request annual leave of
+1 to 3 working days versus more than 3 working days?
+expected_answer: 7 days in advance for leave of 1–3 working days; 14 days in
+advance for leave longer than 3 working days.
+source_section(s): 7.1 Annual / Paid Leave — "Leave Approval"
+answer_type: LIST
+chunk_sensitivity: Medium sensitivity — requires both bullet points to be in
+the same chunk. If chunk size is small enough to split the two bullets across
+two chunks, single-chunk retrieval will return an incomplete answer (only one
+of the two notice periods). Good test for whether retriever returns top-k>1.
+
+--------------------------------------------------------------------------------
+ID: Q005
+--------------------------------------------------------------------------------
+question: How many paid sick days are employees entitled to per calendar
+year, and can unused sick leave be cashed out?
+expected_answer: 12 paid sick days per calendar year. Unused sick leave is
+generally not convertible into cash unless required by applicable law.
+source_section(s): 8. Sick Leave
+answer_type: SYNTHESIS
+chunk_sensitivity: Medium — the numeric fact and the cash-out rule appear in
+the same section but are separated by a few sentences. Small chunk sizes may
+retrieve only one of the two facts; tests partial-answer degradation.
+
+--------------------------------------------------------------------------------
+ID: Q006
+--------------------------------------------------------------------------------
+question: How many paid casual/personal leave days can an employee take per
+year, and give two examples of when it can be used.
+expected_answer: 6 paid personal/casual leave days per calendar year. Examples
+include urgent family matters and personal appointments (also: unexpected
+responsibilities, short-term emergencies).
+source_section(s): 9. Casual / Personal Leave
+answer_type: LIST
+chunk_sensitivity: Medium — the numeric fact is in the intro sentence, the
+examples are in a bullet list below it. Tests whether chunking keeps a
+short section intact as a single unit.
+
+--------------------------------------------------------------------------------
+ID: Q007
+--------------------------------------------------------------------------------
+question: How many weeks of maternity leave does Mindgraph AI provide as
+company policy, and does statutory law override this?
+expected_answer: Up to 26 weeks of maternity leave for eligible employees,
+subject to statutory eligibility and legal requirements. Where applicable
+law provides a greater benefit, the greater statutory entitlement applies.
+source_section(s): 11.1 Maternity Leave Entitlement
+answer_type: SYNTHESIS
+chunk_sensitivity: Medium — the "26 weeks" figure and the "law overrides"
+clause are two sentences apart. Useful for testing whether small chunks
+truncate the conditional/override clause, producing a technically correct
+but legally incomplete answer.
+
+--------------------------------------------------------------------------------
+ID: Q008
+--------------------------------------------------------------------------------
+question: How many days of paid paternity/partner leave are eligible
+employees entitled to, and within how many days of the birth or adoption
+must it generally be taken?
+expected_answer: 10 working days of paid paternity/partner leave, generally
+to be taken within 90 days of the birth or placement of the child.
+source_section(s): 12. Paternity / Partner Leave
+answer_type: SYNTHESIS
+chunk_sensitivity: Medium — two numeric facts (10 days, 90 days) in a short
+section; tests whether both numbers survive in the same retrieved chunk,
+since it's easy for a model to swap or drop one of two similar-looking
+numbers when only partial context is retrieved.
+
+--------------------------------------------------------------------------------
+ID: Q009
+--------------------------------------------------------------------------------
+question: How many weeks of paid adoption leave are employees entitled to?
+expected_answer: 12 weeks of paid adoption leave, subject to applicable law
+and eligibility requirements.
+source_section(s): 13. Adoption Leave
+answer_type: NUMERIC
+chunk_sensitivity: Low — short, self-contained section. Good control
+question; also useful as a "distractor" test since "12" also appears
+elsewhere (12 sick days) — checks whether retrieval confuses similar numbers
+across sections at small chunk sizes.
+
+--------------------------------------------------------------------------------
+ID: Q010
+--------------------------------------------------------------------------------
+question: How many paid bereavement leave days are employees entitled to,
+and which family members are generally covered?
+expected_answer: Up to 5 paid working days. Immediate family generally
+includes spouse or partner, parent, child, sibling, grandparent, and
+parent-in-law.
+source_section(s): 14. Bereavement Leave
+answer_type: LIST
+chunk_sensitivity: Medium-high — the numeric fact is a short sentence, but
+the family list has 6 items in a bullet list. Small chunk sizes risk cutting
+off the list mid-way (e.g., returning only 3 of 6 family members). Good
+test for list-completeness under varying chunk sizes.
+
+--------------------------------------------------------------------------------
+ID: Q011
+--------------------------------------------------------------------------------
+question: Summarize all leave entitlements at Mindgraph AI in one list,
+including annual, sick, casual, maternity, paternity, adoption, and
+bereavement leave.
+expected_answer: Annual/Paid Leave: 24 days/year. Sick Leave: 12 days/year.
+Casual/Personal Leave: 6 days/year. Maternity Leave: up to 26 weeks (subject
+to statutory eligibility). Paternity/Partner Leave: 10 working days.
+Adoption Leave: 12 weeks. Bereavement Leave: up to 5 working days.
+source_section(s): Sections 7–14 (individual); Appendix C — Leave Summary
+(consolidated table)
+answer_type: TABLE_LOOKUP / SYNTHESIS
+chunk_sensitivity: HIGH — this is the key stress-test question. If Appendix C
+exists as its own chunk, a large-enough chunk size (or a chunk aligned to the
+whole table) answers this perfectly in one retrieval. If chunk size is too
+small to hold the whole table, or if the chunking strategy ignores markdown
+tables entirely, the model must instead aggregate from 7 separate sections
+across the document — requiring high top-k retrieval and multi-hop synthesis,
+and is likely to drop or hallucinate at least one leave type. Use this
+question to directly compare "chunk small + high top-k" vs. "chunk large
+enough to hold Appendix C whole" strategies.
+
+--------------------------------------------------------------------------------
+ID: Q012
+--------------------------------------------------------------------------------
+question: Within how many business days will approved expenses normally be
+reimbursed?
+expected_answer: Normally within 10 business days after final approval,
+subject to payroll/banking processing timelines.
+source_section(s): 18.4 Reimbursement Timeline
+answer_type: NUMERIC
+chunk_sensitivity: Low — short, self-contained subsection.
+
+--------------------------------------------------------------------------------
+ID: Q013
+--------------------------------------------------------------------------------
+question: List three types of expenses that are generally NOT reimbursable.
+expected_answer: Any three of: personal entertainment; alcohol (unless
+specifically approved for a legitimate business event); fines or penalties;
+personal shopping; unapproved upgrades; personal travel extensions; expenses
+for family members unless expressly approved.
+source_section(s): 18.6 Personal Expenses
+answer_type: LIST
+chunk_sensitivity: Medium-high — 7-item bullet list. Tests list truncation;
+also a good test of whether the retriever confuses this "not reimbursable"
+list with the "reimbursable examples" list in Section 18 (similar phrasing,
+opposite meaning) — checks for semantic-similarity retrieval errors.
+
+--------------------------------------------------------------------------------
+ID: Q014
+--------------------------------------------------------------------------------
+question: What approval is recommended for a recurring SaaS subscription
+versus a routine local business expense?
+expected_answer: Routine local business expense: Manager. Recurring SaaS
+subscription: Manager + Finance.
+source_section(s): Appendix B — Recommended Expense Approval Matrix
+answer_type: TABLE_LOOKUP
+chunk_sensitivity: HIGH — this is a markdown table with 9 rows. Tests whether
+the chunking strategy preserves table structure. At small chunk sizes, a
+naive text-splitter may break the table into fragments that lose row/column
+alignment (e.g., separating "Recurring SaaS subscription" from "Manager +
+Finance"), causing wrong or garbled answers even if the right chunk is
+retrieved.
+
+--------------------------------------------------------------------------------
+ID: Q015
+--------------------------------------------------------------------------------
+question: According to the AI and Data Usage Policy, what must employees NOT
+do with confidential or customer information?
+expected_answer: Employees must not enter confidential, personal, customer,
+regulated, or proprietary information into public AI systems unless the
+system has been approved for that type of data.
+source_section(s): 27. AI and Data Usage Policy
+answer_type: SINGLE_FACT
+chunk_sensitivity: Low-medium — single key sentence, but surrounded by a
+bulleted list of related best practices (using approved tools, verifying
+output, etc.) that could be pulled in as noise or, at very small chunk sizes,
+separated from this specific prohibition.
+
+--------------------------------------------------------------------------------
+ID: Q016
+--------------------------------------------------------------------------------
+question: Does Section 20 (Software and SaaS Expenses) say anything relevant
+to the AI usage restrictions described in Section 27?
+expected_answer: Yes — Section 20 states employees should not upload
+confidential information to unapproved third-party AI or SaaS platforms,
+which reinforces the Section 27 rule against entering confidential/customer
+data into unapproved public AI systems.
+source_section(s): 20. Software and SaaS Expenses; 27. AI and Data Usage
+Policy
+answer_type: SYNTHESIS
+chunk_sensitivity: HIGH — this question deliberately spans two
+non-adjacent sections (20 and 27) that express a related rule in different
+words. It cannot be answered from a single small chunk; it requires the
+retriever to surface both chunks (tests top-k and embedding similarity
+across sections) and the generator to connect them. Useful for testing
+cross-section reasoning at varying chunk sizes/overlap settings.
+
+--------------------------------------------------------------------------------
+ID: Q017
+--------------------------------------------------------------------------------
+question: What law specifically governs sexual harassment complaints for
+employees in India, according to this policy?
+expected_answer: The Prevention of Sexual Harassment of Women at Workplace
+Act, 2013 (POSH Act), where applicable.
+source_section(s): 25. Anti-Harassment and Anti-Discrimination
+answer_type: SINGLE_FACT
+chunk_sensitivity: Low — named entity near the end of the section; good test
+for whether chunk boundaries cut off the final sentence of a section
+(a common failure mode when chunk size is set close to section length).
+
+--------------------------------------------------------------------------------
+ID: Q018
+--------------------------------------------------------------------------------
+question: What is the standard full-time working schedule described in the
+policy?
+expected_answer: Monday to Friday, 40 hours per week, subject to role, team
+requirements, applicable law, and employment agreement.
+source_section(s): 4.1 Standard Working Hours
+answer_type: SINGLE_FACT
+chunk_sensitivity: Low — short, self-contained subsection near the start of
+a section; control question.
+
+--------------------------------------------------------------------------------
+ID: Q019
+--------------------------------------------------------------------------------
+question: Under this policy, is remote work considered an exemption from
+normal performance and availability expectations?
+expected_answer: No — remote work is a working arrangement, not an exemption
+from normal performance or availability expectations.
+source_section(s): 5. Remote and Hybrid Work
+answer_type: SINGLE_FACT
+chunk_sensitivity: Low-medium — this is a single sentence but its meaning
+depends on correctly negating "not an exemption"; tests generation fidelity
+more than retrieval, but still requires the specific sentence rather than
+the general surrounding list of factors.
+
+--------------------------------------------------------------------------------
+ID: Q020
+--------------------------------------------------------------------------------
+question: What happens if there is a conflict between applicable law, a
+signed employment agreement, and this HR Policy?
+expected_answer: Applicable law will prevail; contractual terms apply where
+legally enforceable and more specific than this general policy; where a
+mandatory legal requirement provides greater employee protection, Mindgraph
+AI will comply with that requirement.
+source_section(s): 43. Precedence of Law and Employment Agreements
+answer_type: SYNTHESIS
+chunk_sensitivity: Medium — the three-part precedence rule is spread across
+a numbered list and a follow-up paragraph. Small chunks may retrieve only
+the numbered list (law > agreement > policy) without the follow-up
+paragraph about greater legal protection, giving a partially correct answer.
+
+--------------------------------------------------------------------------------
+ID: Q021
+--------------------------------------------------------------------------------
+question: How many days notice must employees give before booking
+non-refundable travel based on an unapproved leave request?
+expected_answer: Trick question / not stated. The policy says employees
+should not book non-refundable travel based on an unapproved leave request
+unless they accept the risk it may not be approved — it does not specify a
+notice period for this specific scenario.
+source_section(s): 16. Leave Request Process
+answer_type: SINGLE_FACT (negative/no-answer case)
+chunk_sensitivity: Low-medium — this is a hallucination-detection probe. A
+RAG system with weak grounding may fabricate a number (e.g., confusing it
+with the 7/14-day annual leave notice periods in Section 7.1) especially at
+larger chunk sizes where both facts appear "nearby" in the same context
+window. Use this to test hallucination rate as chunk size increases.
+
+--------------------------------------------------------------------------------
+ID: Q022
+--------------------------------------------------------------------------------
+question: What is Mindgraph AI's official termination notice period for
+employees (e.g., 30 days, 60 days)?
+expected_answer: Not specified in this policy. The policy states employees
+should provide written notice "in accordance with their employment
+agreement" (Section 39) but does not itself define a specific number of
+days — this is a case where the document does not contain the answer.
+source_section(s): 39. Resignation and Notice Period (does not contain a
+specific figure)
+answer_type: SINGLE_FACT (negative/no-answer case)
+chunk_sensitivity: Low — critical "no answer in context" control question.
+Use this to check whether the RAG pipeline correctly abstains/says "not
+specified" rather than hallucinating a number, across all chunk sizes.
+
+--------------------------------------------------------------------------------
+ID: Q023
+--------------------------------------------------------------------------------
+question: What are the four employment categories other than full-time
+employees mentioned in the policy, and does the policy guarantee identical
+benefits across all categories?
+expected_answer: Part-time employees, fixed-term employees, interns or
+trainees, and contractors or consultants. No — benefits and statutory
+entitlements may differ according to employment classification and
+applicable law.
+source_section(s): 3. Employment Categories
+answer_type: LIST
+chunk_sensitivity: Medium — 5-item bullet list plus a follow-up sentence;
+tests whether the disclaimer sentence stays attached to the list at smaller
+chunk sizes.
+
+--------------------------------------------------------------------------------
+ID: Q024
+--------------------------------------------------------------------------------
+question: According to the Code of Conduct, name three prohibited employee
+behaviors.
+expected_answer: Any three of: harass or discriminate against colleagues;
+engage in workplace violence or threats; falsify company records; misuse
+company funds; steal company property; deliberately compromise company
+systems; misrepresent information to customers; use company resources for
+unlawful purposes; retaliate against employees who raise legitimate
+concerns.
+source_section(s): 24. Code of Conduct
+answer_type: LIST
+chunk_sensitivity: Medium-high — 9-item bullet list, one of the longest in
+the document. Strong test for list-completeness degradation as chunk size
+shrinks.
+
+--------------------------------------------------------------------------------
+ID: Q025
+--------------------------------------------------------------------------------
+question: What equipment might Mindgraph AI provide to employees, and who
+owns it?
+expected_answer: Laptop/computer, monitor, keyboard/mouse, headset, mobile
+device, security hardware, and other necessary equipment. Company equipment
+remains company property unless expressly transferred to the employee.
+source_section(s): 19. Company Equipment
+answer_type: SYNTHESIS
+chunk_sensitivity: Medium — the ownership rule comes right after the bullet
+list; tests whether chunk boundaries preserve the connection between the
+list and its ownership clause.
+
+--------------------------------------------------------------------------------
+ID: Q026
+--------------------------------------------------------------------------------
+question: Compare the entitlement periods for maternity leave, paternity/
+partner leave, and adoption leave, and note which one carries an explicit
+usage-timing deadline.
+expected_answer: Maternity leave: up to 26 weeks. Paternity/partner leave:
+10 working days, generally to be taken within 90 days of the birth/
+placement. Adoption leave: 12 weeks. Only paternity/partner leave has an
+explicit usage-timing deadline (90 days) stated in the policy.
+source_section(s): 11. Maternity Leave; 12. Paternity/Partner Leave;
+13. Adoption Leave
+answer_type: SYNTHESIS
+chunk_sensitivity: HIGH — spans three non-adjacent sections and requires
+comparative reasoning (identifying which ONE of three has a stated deadline).
+This is a strong multi-hop test: small chunk sizes require high top-k to
+gather all three sections, and the model must correctly attribute the
+90-day deadline to paternity leave only, not accidentally apply it to
+maternity or adoption leave (a common cross-contamination error when
+multiple similar chunks are in context).
+
+--------------------------------------------------------------------------------
+ID: Q027
+--------------------------------------------------------------------------------
+question: What must employees do before purchasing an expensive or recurring
+software subscription, and where else in the document is a related approval
+rule given?
+expected_answer: Employees should not purchase expensive or recurring
+software subscriptions without authorization (Section 20). A related rule
+appears in Appendix B, which recommends "Manager + Finance" approval for
+software subscriptions and "Manager + Finance" for recurring SaaS
+subscriptions specifically.
+source_section(s): 20. Software and SaaS Expenses; Appendix B
+answer_type: SYNTHESIS
+chunk_sensitivity: HIGH — links a prose rule (Section 20) to a table-based
+rule (Appendix B) far apart in the document. Tests whether the RAG system
+can retrieve both a narrative chunk and a table chunk together and reconcile
+them, which is sensitive to both chunk size and table-handling strategy.
+
+--------------------------------------------------------------------------------
+ID: Q028
+--------------------------------------------------------------------------------
+question: What is the effective date and version number of this HR Policy?
+expected_answer: Effective Date: 5 September 2026. Version: 1.0.
+source_section(s): Document header (top of policy)
+answer_type: SINGLE_FACT
+chunk_sensitivity: Low — metadata at the very top of the document. Good
+test for whether the first chunk (header/metadata block) is retrievable at
+all, since some chunking strategies treat short header blocks poorly
+(e.g., merging them into the first content chunk or dropping them).
