@@ -1,0 +1,922 @@
+# Mindgraph AI — Employee HR Policy
+
+**Company:** Mindgraph AI  
+**Policy Owner:** Human Resources / Management  
+**Effective Date:** 5 September 2026  
+**Version:** 1.0  
+**Applies To:** All employees of Mindgraph AI, unless a written employment agreement or applicable law provides otherwise.
+
+> **Important:** This policy is a general company HR framework and should be reviewed and adapted by qualified employment counsel for each country/state in which Mindgraph AI employs people. Where applicable law provides a more favorable employee benefit or protection than this policy, the law will prevail.
+
+---
+
+## 1. Purpose
+
+This HR Policy establishes the general employment standards, workplace expectations, leave benefits, compensation practices, reimbursements, working arrangements, and employee support policies of Mindgraph AI.
+
+Mindgraph AI is committed to building a workplace that is:
+
+- Professional, respectful, and inclusive
+- Focused on high-quality work and continuous learning
+- Supportive of employee wellbeing
+- Fair and transparent in compensation and leave administration
+- Appropriate for a technology and AI-focused organization
+- Compliant with applicable employment, tax, privacy, and workplace laws
+
+---
+
+# 2. Employment Principles
+
+Mindgraph AI aims to provide employees with:
+
+1. Clear responsibilities and expectations
+2. Fair and timely compensation
+3. Reasonable flexibility in how work is performed
+4. Opportunities for professional development
+5. A safe and respectful workplace
+6. Appropriate leave and time-off benefits
+7. A transparent process for raising workplace concerns
+
+Employees are expected to act professionally, protect company and customer information, and contribute constructively to the organization.
+
+---
+
+# 3. Employment Categories
+
+Employees may be classified as:
+
+- Full-time employees
+- Part-time employees
+- Fixed-term employees
+- Interns or trainees
+- Contractors or consultants
+
+Benefits and statutory entitlements may differ according to employment classification and applicable law.
+
+The employee's offer letter or employment agreement will specify their applicable employment terms.
+
+---
+
+# 4. Working Hours and Attendance
+
+## 4.1 Standard Working Hours
+
+The standard full-time working schedule is generally:
+
+**Monday to Friday, 40 hours per week**, subject to the employee's role, team requirements, applicable law, and employment agreement.
+
+Mindgraph AI may operate with flexible working hours where the nature of the role permits.
+
+## 4.2 Core Collaboration Hours
+
+Teams may establish reasonable core collaboration hours during which employees are expected to be reachable for meetings, discussions, and urgent work.
+
+Managers should avoid unnecessary meetings outside normal working hours.
+
+## 4.3 Attendance
+
+Employees are expected to:
+
+- Attend scheduled meetings on time
+- Communicate planned absences in advance
+- Keep their manager informed of significant availability issues
+- Maintain accurate leave records
+- Remain reasonably reachable during agreed working hours
+
+---
+
+# 5. Remote and Hybrid Work
+
+Mindgraph AI may permit remote or hybrid work depending on:
+
+- Job responsibilities
+- Team requirements
+- Security considerations
+- Customer requirements
+- Employee performance
+- Applicable law
+
+Employees working remotely are expected to maintain a professional working environment and adequate internet, communication, and work equipment.
+
+Remote work is a working arrangement, not an exemption from normal performance or availability expectations.
+
+Mindgraph AI may require employees to attend occasional in-person meetings, company events, training, or customer engagements.
+
+---
+
+# 6. Compensation and Employee Payments
+
+## 6.1 Salary
+
+Employees will receive the salary specified in their employment agreement or offer letter.
+
+Salary is normally paid monthly unless otherwise specified.
+
+Salary payments are subject to applicable tax, social security, provident fund, insurance, or other statutory deductions.
+
+## 6.2 Payroll
+
+Mindgraph AI will make reasonable efforts to process payroll accurately and on time.
+
+Employees should promptly notify HR/Finance of:
+
+- Incorrect salary payments
+- Changes to bank details
+- Tax-related changes
+- Changes in personal information relevant to payroll
+- Other payroll discrepancies
+
+## 6.3 Salary Reviews
+
+Salary reviews may be conducted periodically based on factors including:
+
+- Performance
+- Responsibilities
+- Company performance
+- Market conditions
+- Internal compensation structure
+- Promotion or role changes
+
+A salary review does not automatically guarantee a salary increase.
+
+## 6.4 Bonuses and Incentives
+
+Where applicable, employees may be eligible for performance bonuses, sales incentives, commissions, or other variable compensation.
+
+Eligibility, calculation, timing, and payment conditions will be communicated separately.
+
+Unless contractually guaranteed, bonuses and incentives are discretionary and may depend on individual and company performance.
+
+## 6.5 Equity / Stock Options
+
+Where offered, equity, stock options, restricted stock, or similar incentives will be governed by the relevant plan documents and individual grant agreement.
+
+The terms of an equity grant take precedence over general statements in this HR Policy.
+
+---
+
+# 7. Leave Policy
+
+Mindgraph AI believes employees should take adequate time away from work to rest, handle personal responsibilities, recover from illness, and spend time with family.
+
+Leave entitlements are subject to applicable local employment laws and the employee's employment agreement.
+
+## 7.1 Annual / Paid Leave
+
+Full-time employees receive **24 paid days of annual leave per calendar year**.
+
+Annual leave is intended for:
+
+- Vacation
+- Rest and personal time
+- Travel
+- Personal commitments
+- Other planned absences
+
+### Leave Accrual
+
+Unless otherwise specified in the employment agreement, annual leave accrues at **2 days per completed month of employment**.
+
+Employees joining or leaving during a calendar year will generally receive a prorated entitlement, subject to applicable law.
+
+### Carry Forward
+
+Up to **10 unused annual leave days** may be carried into the following calendar year unless applicable law requires a higher entitlement.
+
+Carried-forward leave should generally be used within the following year.
+
+### Leave Approval
+
+Planned annual leave should normally be requested at least:
+
+- **7 days in advance** for leave of 1–3 working days
+- **14 days in advance** for leave longer than 3 working days
+
+Managers may approve shorter-notice requests where reasonable.
+
+Leave approval depends on business requirements, but managers should make reasonable efforts to accommodate employee leave.
+
+---
+
+# 8. Sick Leave
+
+Employees are entitled to **12 paid sick days per calendar year**, subject to applicable law.
+
+Sick leave may be used when an employee is unable to work due to illness, injury, medical treatment, or other medically necessary circumstances.
+
+Employees should notify their manager as soon as reasonably possible.
+
+Mindgraph AI may request reasonable medical documentation for extended or repeated absences, where legally permitted.
+
+Unused sick leave is generally not convertible into cash unless required by applicable law.
+
+---
+
+# 9. Casual / Personal Leave
+
+Employees may take up to **6 paid personal/casual leave days per calendar year** for short-term personal matters.
+
+Examples include:
+
+- Urgent family matters
+- Personal appointments
+- Unexpected responsibilities
+- Short-term emergencies
+- Other reasonable personal needs
+
+Where practical, employees should request this leave in advance.
+
+---
+
+# 10. Public Holidays
+
+Employees will receive holidays applicable to their employment location in accordance with:
+
+- Applicable national law
+- State/provincial law
+- Company holiday calendars
+- Customer or operational requirements where relevant
+
+Mindgraph AI may publish an annual company holiday calendar.
+
+---
+
+# 11. Maternity Leave
+
+Mindgraph AI supports employees during pregnancy, childbirth, and the transition to parenthood.
+
+## 11.1 Maternity Leave Entitlement
+
+Eligible employees will receive maternity leave in accordance with applicable law.
+
+For employees in India covered by the Maternity Benefit Act, as amended, Mindgraph AI will provide the statutory maternity benefit applicable to the employee.
+
+As a company policy, Mindgraph AI provides **up to 26 weeks of maternity leave for eligible employees**, subject to statutory eligibility and legal requirements.
+
+Where applicable law provides a greater benefit, the greater statutory entitlement will apply.
+
+## 11.2 Pregnancy-Related Medical Needs
+
+Reasonable accommodations may be provided where appropriate and legally required, including:
+
+- Adjusted working arrangements
+- Temporary schedule changes
+- Remote work where reasonably possible
+- Additional breaks
+- Medical appointments
+
+Employees should discuss reasonable workplace accommodations with HR or their manager.
+
+## 11.3 Return to Work
+
+Mindgraph AI will make reasonable efforts to support an employee's return to work following maternity leave.
+
+Where legally required, eligible employees will receive nursing/lactation breaks or other applicable protections.
+
+Employees returning from maternity leave should not be disadvantaged solely because they took legally protected maternity leave.
+
+---
+
+# 12. Paternity / Partner Leave
+
+Eligible employees may receive **10 working days of paid paternity/partner leave** following the birth or adoption of a child.
+
+The leave should generally be taken within **90 days** of the birth or placement of the child, unless otherwise approved.
+
+Where applicable law provides a greater entitlement, the statutory entitlement will apply.
+
+---
+
+# 13. Adoption Leave
+
+Employees adopting a child may receive **12 weeks of paid adoption leave**, subject to applicable law and eligibility requirements.
+
+Where applicable law provides a greater entitlement, the statutory entitlement will apply.
+
+---
+
+# 14. Bereavement Leave
+
+Employees may receive up to **5 paid working days** following the death of an immediate family member.
+
+Immediate family generally includes:
+
+- Spouse or partner
+- Parent
+- Child
+- Sibling
+- Grandparent
+- Parent-in-law
+
+Additional unpaid or paid leave may be approved by management depending on circumstances and applicable law.
+
+---
+
+# 15. Unpaid Leave / Leave of Absence
+
+Employees may request unpaid leave for significant personal circumstances when paid leave is insufficient.
+
+Approval is subject to:
+
+- Business requirements
+- Employee circumstances
+- Employment terms
+- Applicable law
+
+Legally protected leaves will not be denied or adversely affected by this policy.
+
+---
+
+# 16. Leave Request Process
+
+Employees should submit leave through the company's designated HR, attendance, or leave-management system.
+
+A leave request should include:
+
+- Type of leave
+- Start date
+- End date
+- Number of working days
+- Brief reason where required
+- Emergency contact information where appropriate
+
+Managers should respond to leave requests promptly.
+
+Employees should not book non-refundable travel based on an unapproved leave request unless they accept the risk that the request may not be approved.
+
+---
+
+# 17. Leave During Probation
+
+Employees may take statutory leave and other approved leave during probation.
+
+Annual leave during probation may be subject to reasonable operational restrictions, except where applicable law provides otherwise.
+
+---
+
+# 18. Employee Expenses and Reimbursements
+
+Mindgraph AI will reimburse reasonable and necessary business expenses incurred by employees in performing authorized company work.
+
+Examples include:
+
+- Business travel
+- Customer meetings
+- Conferences
+- Work-related meals
+- Local transportation
+- Accommodation
+- Business software
+- Internet or communication expenses where specifically approved
+- Office supplies
+- Other pre-approved business expenses
+
+## 18.1 General Requirements
+
+Expenses must be:
+
+1. Business-related
+2. Reasonable
+3. Necessary
+4. Properly documented
+5. Submitted within the applicable reimbursement period
+
+Employees should use company payment methods where available.
+
+## 18.2 Receipts
+
+Employees should retain itemized receipts for reimbursable expenses.
+
+Where a receipt is unavailable, employees should provide an explanation and alternative evidence where possible.
+
+## 18.3 Expense Approval
+
+Expenses above company-defined limits may require prior approval.
+
+Employees should not assume that an expense will be reimbursed merely because it was incurred for work.
+
+## 18.4 Reimbursement Timeline
+
+Approved expenses will normally be reimbursed within **10 business days** after final approval, subject to payroll/banking processing timelines.
+
+## 18.5 Travel Expenses
+
+Reasonable travel expenses may include:
+
+- Economy-class airfare for normal business travel
+- Standard rail/bus transportation
+- Reasonable hotel accommodation
+- Local transportation
+- Reasonable business meals
+- Visa and business travel documentation fees where pre-approved
+
+Premium travel generally requires prior written approval.
+
+## 18.6 Personal Expenses
+
+The following are generally not reimbursable:
+
+- Personal entertainment
+- Alcohol unless specifically approved for a legitimate business event and permitted by company policy/law
+- Fines or penalties
+- Personal shopping
+- Unapproved upgrades
+- Personal travel extensions
+- Expenses for family members unless expressly approved
+
+---
+
+# 19. Company Equipment
+
+Mindgraph AI may provide employees with:
+
+- Laptop/computer
+- Monitor
+- Keyboard/mouse
+- Headset
+- Mobile device
+- Security hardware
+- Other equipment necessary for their role
+
+Company equipment remains company property unless expressly transferred to the employee.
+
+Employees are responsible for taking reasonable care of company equipment.
+
+Loss, theft, or suspected compromise of company equipment should be reported promptly.
+
+---
+
+# 20. Software and SaaS Expenses
+
+Employees may request company-funded software and services required for their work.
+
+Examples include:
+
+- Development tools
+- AI tools
+- Cloud services
+- Design software
+- Productivity applications
+- Research databases
+- Collaboration software
+
+Employees should not purchase expensive or recurring software subscriptions without authorization.
+
+Because Mindgraph AI handles potentially sensitive company and customer information, employees should not upload confidential information to unapproved third-party AI or SaaS platforms.
+
+---
+
+# 21. Professional Development
+
+Mindgraph AI encourages continuous learning.
+
+Subject to company approval and budget availability, the company may reimburse:
+
+- Professional courses
+- Certifications
+- Conferences
+- Workshops
+- Technical training
+- Books and professional resources
+
+Employees should obtain approval before committing to significant expenses.
+
+---
+
+# 22. Performance Management
+
+Employees will generally receive ongoing feedback from their managers.
+
+Performance evaluation may consider:
+
+- Quality of work
+- Reliability
+- Ownership
+- Technical or functional capability
+- Communication
+- Collaboration
+- Customer impact
+- Initiative
+- Achievement of agreed objectives
+- Compliance with company policies
+
+Performance reviews may occur annually, semi-annually, or at another interval determined by the company.
+
+---
+
+# 23. Promotions
+
+Promotions may be based on:
+
+- Demonstrated performance
+- Increased responsibilities
+- Skills and expertise
+- Business requirements
+- Leadership capability
+- Sustained contribution
+
+Employees are not automatically entitled to promotion based solely on length of service.
+
+---
+
+# 24. Code of Conduct
+
+Employees must conduct themselves professionally and ethically.
+
+Employees must not:
+
+- Harass or discriminate against colleagues
+- Engage in workplace violence or threats
+- Falsify company records
+- Misuse company funds
+- Steal company property
+- Deliberately compromise company systems
+- Misrepresent information to customers
+- Use company resources for unlawful purposes
+- Retaliate against employees who raise legitimate concerns
+
+Employees are expected to act in the best interests of Mindgraph AI while complying with applicable laws.
+
+---
+
+# 25. Anti-Harassment and Anti-Discrimination
+
+Mindgraph AI is committed to maintaining a workplace free from unlawful discrimination and harassment.
+
+Employment decisions should not unlawfully discriminate on the basis of characteristics protected by applicable law.
+
+Harassment may include:
+
+- Verbal abuse
+- Unwelcome sexual conduct
+- Threatening behavior
+- Bullying
+- Offensive jokes or comments
+- Unwanted advances
+- Repeated inappropriate conduct
+- Retaliation for reporting concerns
+
+Employees may report concerns to their manager, HR, designated complaint channel, or another appropriate company representative.
+
+For employees in India, complaints involving sexual harassment will be handled in accordance with applicable law, including the Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH Act), where applicable.
+
+---
+
+# 26. Confidentiality
+
+Employees may have access to confidential information including:
+
+- Source code
+- Product roadmaps
+- AI models and prompts
+- Customer information
+- Business strategies
+- Pricing
+- Financial information
+- Security information
+- Employee information
+- Intellectual property
+- Trade secrets
+
+Employees must protect confidential information during and after employment as required by their agreements and applicable law.
+
+---
+
+# 27. AI and Data Usage Policy
+
+Because Mindgraph AI develops and operates AI products, employees must exercise particular care when using AI systems.
+
+Employees must not enter confidential, personal, customer, regulated, or proprietary information into public AI systems unless the system has been approved for that type of data.
+
+Employees should:
+
+- Use approved AI tools for company work
+- Verify important AI-generated information
+- Avoid representing unverified AI output as fact
+- Protect customer and employee data
+- Follow security and data-processing requirements
+- Report suspected data exposure immediately
+
+AI-generated code, content, analysis, or decisions must be reviewed appropriately before being used in production or customer-facing work.
+
+---
+
+# 28. Information Security
+
+Employees must follow company security requirements, including:
+
+- Using strong passwords
+- Enabling multi-factor authentication where required
+- Keeping devices updated
+- Protecting company credentials
+- Using approved communication systems
+- Avoiding unauthorized software
+- Reporting suspected security incidents
+
+Employees must never share passwords, authentication tokens, API keys, or private credentials through insecure channels.
+
+---
+
+# 29. Intellectual Property
+
+Work created by employees in the course of their employment may be subject to intellectual property assignment provisions contained in their employment agreement and applicable law.
+
+Employees must promptly disclose relevant inventions, software, designs, documentation, models, processes, or other intellectual property created as part of their work where required by their agreement.
+
+Employees must not knowingly incorporate third-party intellectual property into company products without appropriate authorization.
+
+---
+
+# 30. Outside Employment and Conflicts of Interest
+
+Employees must disclose situations that create an actual or potential conflict of interest.
+
+Examples include:
+
+- Working for a direct competitor
+- Using company resources for outside commercial work
+- Hiring or supervising close relatives without disclosure
+- Accepting inappropriate gifts from vendors
+- Using confidential information for personal gain
+
+Outside employment may be permitted where it does not conflict with the employee's duties, confidentiality obligations, working hours, or applicable law.
+
+---
+
+# 31. Gifts and Business Courtesies
+
+Employees should avoid accepting gifts, payments, or benefits that could improperly influence business decisions.
+
+Reasonable promotional items or ordinary business hospitality may be accepted where lawful and appropriate.
+
+Cash or cash-equivalent gifts from vendors, customers, or business partners should generally not be accepted.
+
+---
+
+# 32. Social Media
+
+Employees are free to use social media in their personal capacity.
+
+Employees should not:
+
+- Disclose confidential company information
+- Publish customer information without authorization
+- Misrepresent personal opinions as official company statements
+- Share unreleased product information
+- Disclose security vulnerabilities publicly before they have been addressed
+
+Nothing in this policy is intended to restrict legally protected employee communications or rights.
+
+---
+
+# 33. Expense Fraud and Financial Misconduct
+
+Submitting false expenses, falsifying receipts, manipulating financial records, or misappropriating company funds may result in disciplinary action, up to and including termination, subject to applicable law.
+
+---
+
+# 34. Employee Grievances
+
+Employees are encouraged to raise concerns early.
+
+Employees may raise issues involving:
+
+- Compensation
+- Managers
+- Workplace conduct
+- Harassment
+- Discrimination
+- Workload
+- Leave
+- Reimbursements
+- Security
+- Ethics
+- Other workplace matters
+
+Concerns should normally be raised with the employee's manager or HR. Where the concern involves that person, employees may use another designated reporting channel.
+
+Mindgraph AI will make reasonable efforts to handle complaints fairly and confidentially, subject to legal and investigative requirements.
+
+---
+
+# 35. Whistleblower / Good-Faith Reporting
+
+Employees who report suspected unlawful conduct, fraud, serious policy violations, security incidents, or other serious concerns in good faith should not face retaliation for making a legitimate report.
+
+Reports should be made honestly and with reasonable care.
+
+Knowingly making false allegations may itself constitute misconduct.
+
+---
+
+# 36. Health, Safety and Wellbeing
+
+Mindgraph AI is committed to maintaining a safe working environment.
+
+Employees should promptly report:
+
+- Workplace hazards
+- Threats or violence
+- Serious safety incidents
+- Unsafe working conditions
+- Other significant health and safety concerns
+
+Employees are encouraged to take reasonable breaks and use available leave rather than working continuously when rest is needed.
+
+---
+
+# 37. Parental and Family Support
+
+Mindgraph AI recognizes that employees may have family and caregiving responsibilities.
+
+Where practical and legally permissible, the company may provide flexible working arrangements for:
+
+- New parents
+- Employees caring for family members
+- Significant family emergencies
+- Temporary caregiving responsibilities
+
+Such arrangements should be discussed with the employee's manager and HR.
+
+---
+
+# 38. Probation
+
+New employees may be subject to a probationary period as specified in their employment agreement.
+
+During probation, the company may evaluate:
+
+- Job performance
+- Cultural and team fit
+- Reliability
+- Communication
+- Technical capability
+- Ability to meet role expectations
+
+The probation period may be extended where legally permissible and appropriate.
+
+---
+
+# 39. Resignation and Notice Period
+
+Employees wishing to resign should provide written notice in accordance with their employment agreement.
+
+The employee should:
+
+- Submit a formal resignation
+- Complete the required notice period unless waived
+- Return company property
+- Transfer relevant work and documentation
+- Assist with reasonable knowledge transfer
+- Complete exit formalities
+
+The company may place employees on garden leave or waive some or all notice requirements where permitted by the employment agreement and applicable law.
+
+---
+
+# 40. Final Settlement
+
+Upon separation, Mindgraph AI will process amounts owed to the employee in accordance with applicable law and the employee's contractual terms.
+
+This may include, where applicable:
+
+- Unpaid salary
+- Approved reimbursable expenses
+- Statutory payments
+- Accrued leave payments where legally required
+- Other contractual amounts
+
+Employees must return company property and settle outstanding company obligations as part of the exit process.
+
+---
+
+# 41. Exit Interview
+
+Mindgraph AI may conduct an exit interview to understand:
+
+- Employee experience
+- Reasons for departure
+- Management effectiveness
+- Compensation competitiveness
+- Workplace concerns
+- Improvement opportunities
+
+Participation may be requested but should be handled consistently with applicable law.
+
+---
+
+# 42. Policy Administration
+
+HR and management are responsible for administering this policy.
+
+Mindgraph AI may amend this policy from time to time due to:
+
+- Changes in law
+- Changes in company structure
+- Changes in benefits
+- Operational requirements
+- Industry practices
+- Employee feedback
+
+Material policy changes will be communicated to employees.
+
+---
+
+# 43. Precedence of Law and Employment Agreements
+
+This policy is intended to establish general company standards.
+
+If there is a conflict between:
+
+1. Applicable law,
+2. A signed employment agreement, or
+3. This HR Policy,
+
+the applicable law will prevail. Contractual terms will apply where legally enforceable and more specific than this general policy.
+
+Where a mandatory legal requirement provides greater employee protection or entitlement, Mindgraph AI will comply with that requirement.
+
+---
+
+# 44. Employee Acknowledgment
+
+Employees may be asked to acknowledge that they have received and understood this HR Policy.
+
+Acknowledgment confirms receipt of the policy and does not necessarily constitute agreement with every provision where such agreement is not legally required.
+
+---
+
+## Employee Acknowledgment
+
+**Employee Name:** __________________________________
+
+**Job Title:** ________________________________________
+
+**Date:** ____________________________________________
+
+**Signature:** ________________________________________
+
+**HR / Authorized Representative:** ____________________
+
+**Date:** ____________________________________________
+
+---
+
+# Appendix A — Recommended HR Documents
+
+Mindgraph AI should maintain the following documents separately from this policy:
+
+- Employment Agreement
+- Offer Letter
+- Employee Handbook / HR Policy
+- Confidentiality and IP Agreement
+- Acceptable Use Policy
+- Information Security Policy
+- Privacy Policy
+- AI Usage Policy
+- Expense & Travel Policy
+- Leave Request Form
+- Performance Review Form
+- Disciplinary Procedure
+- POSH Policy and Internal Committee documentation where applicable
+- Grievance / Complaint Procedure
+- Employee Exit Checklist
+- Equipment Issuance and Return Form
+- Contractor Agreement
+- Internship Agreement
+
+---
+
+# Appendix B — Recommended Expense Approval Matrix
+
+| Expense Type | Recommended Approval |
+|---|---|
+| Routine local business expense | Manager |
+| Business meal | Manager |
+| Software subscription | Manager + Finance |
+| Conference / training | Manager + Finance |
+| Domestic business travel | Manager |
+| International business travel | Manager + Management |
+| Equipment purchase | Manager + IT/Finance |
+| High-value purchase | Management + Finance |
+| Recurring SaaS subscription | Manager + Finance |
+
+The company may establish specific monetary thresholds separately.
+
+---
+
+# Appendix C — Leave Summary
+
+| Leave Type | Company Policy |
+|---|---:|
+| Annual / Paid Leave | 24 days/year |
+| Sick Leave | 12 days/year |
+| Casual / Personal Leave | 6 days/year |
+| Maternity Leave | Up to 26 weeks, subject to statutory eligibility |
+| Paternity / Partner Leave | 10 working days |
+| Adoption Leave | 12 weeks |
+| Bereavement Leave | Up to 5 working days |
+| Public Holidays | As applicable to employee location |
+| Unpaid Leave | Subject to approval and applicable law |
+
+> **Legal review note:** Leave entitlements, statutory benefits, working hours, termination procedures, payroll deductions, maternity benefits, POSH requirements, social-security obligations, and other employment protections can vary substantially by jurisdiction. This policy should be localized before being adopted as a legally binding employee handbook.
